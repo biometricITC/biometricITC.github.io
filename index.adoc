@@ -1,8 +1,8 @@
 = Biometrics Security iTC
 :showtitle:
 :imagesdir: images
-:revnumber: 1.0
-:revdate: 2019-06-11
+:revnumber: 1.1
+:revdate: 2019-08-01
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -12,7 +12,7 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has posted Public Review Draft 1 of the PP-Module and Supporting Documents as of June 17, 2019. Comments for this round of Public Review will be accepted until July 31, 2019.
+The BIO-iTC has closed the Public Review Draft 1 comment period and moved to the Public Review Draft 1 Update cycle. This period will end on or before September 30, 2019.
 
 The chart below shows the expected timeline for producing the final documents. More details are provided in the Public Review Draft 1 document.
 
@@ -20,11 +20,11 @@ The chart below shows the expected timeline for producing the final documents. M
 ....
                                   
     +----------+    +----------+   +----------+   +----------+   +----------+
-    |          |    |  cYEL    |   | Public   |   |          |   | Public   |
+    |          |    |          |   | Public   |   |          |   | Public   |
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   | (60d)    |   |  (45d)   |   | (60d)    | |
+    |          |    |  (45d)   |   | (60d)cYEL|   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
