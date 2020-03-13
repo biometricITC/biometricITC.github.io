@@ -1,8 +1,8 @@
-= Biometrics Security iTC
+= Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 1.3
-:revdate: 2020-02-10
+:revnumber: 1.4
+:revdate: 2020-03-13
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -12,9 +12,9 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC Public Review Draft 2 comment period has now been closed. The BIO-iTC is now reviewing the received comments.
+The BIO-iTC Proposed (Release) Draft comment period has now been opened.
 
-The chart below shows the expected timeline for producing the final documents. More details are provided in the Public Review Draft 2 Overview document.
+The chart below shows the expected timeline for producing the final documents. More details are provided in the Proposed (Release) Draft Overview document.
 
 [ditaa,"PR_Timeline.png"]
 ....
@@ -24,12 +24,12 @@ The chart below shows the expected timeline for producing the final documents. M
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   | (60d)    |   |  (45d)   |   | (60d)cYEL| |
+    |          |    |  (45d)   |   | (60d)    |   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
             |   +----------+   +----------+   +-----------+
-            |   |          |   |          |   |           |
+            |   |  cYEL    |   |          |   |           |
             |   | Proposed |   | Proposed |   | Final     |
             +-->|  Draft   |-->|  Update  |-->| Document  |
                 |          |   |          |   | Published |
@@ -47,8 +47,8 @@ The following are the documents are intended to support this Public Review:
 |===
 |Title ^|Link
 
-.^|Public Review Draft 2 Overview
-^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft2/BIO-Public_Review_Draft_2_Overview.pdf,40,]
+.^|Proposed (Release) Draft Overview
+^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft3/BIO-Proposed_Release_Draft_Overview.pdf,40,]
 
 .^|Comment Matrix
 ^|image:excel-icon-16670.png[link=./comment/BIO-iTC-CommentsMatrix.xlsx,40,]
@@ -56,9 +56,45 @@ The following are the documents are intended to support this Public Review:
 
 |===
 
-== Documents for Review
+== Current Documents for Review
 
-The following are the documents are included in Public Review 2:
+Publication Date (Comments Period Starts):: March 13, 2020
+End of Comment Period:: April 13, 2020
+
+The following are the documents are included in Proposed (Release) Draft period:
+
+.Proposed (Release) Draft Documents
+[[Rev3DocTable]]
+[cols="5,1,1",options="header"]
+|===
+|Title ^|Version ^|Links
+
+.^|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+^.^|0.95
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft3/MOD-BIO-enrl-v0.95DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./pr-draft3/MOD-BIO-enrl-v0.95DRAFT.html,40,]
+
+.^|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
+^.^|0.95
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft3/PPC+MDF+BIO-v0.95DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./pr-draft3/PPC+MDF+BIO-v0.95DRAFT.html,40,]
+
+.^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
+^.^|0.95
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft3/SD-BIO-enrl-v0.95DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./pr-draft3/SD-BIO-enrl-v0.95DRAFT.html,40,]
+
+.^|Biometric PAD Toolbox Overview [Toolbox]
+^.^|0.95
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./pr-draft3/BIO-PAD-Toolbox-Overview-v0.95DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./pr-draft3/BIO-PAD-Toolbox-Overview-v0.95DRAFT.html,40,]
+
+|===
+
+== Previous Documents for Review
+
+For historical purposes, these are the documents from the previous Public Review periods.
+
+*_Public Review Draft 2_*
+
+Publication Date:: December 20, 2019
+End of Comment Period:: February 7, 2020
 
 .Public Review 2 Documents
 [[Rev2DocTable]]
@@ -84,7 +120,10 @@ The following are the documents are included in Public Review 2:
 
 |===
 
-For historical purposes, these are the documents from Public Review 1:
+*_Public Review Draft 1_*
+
+Publication Date:: June 17, 2019
+End of Comment Period:: July 31, 2019
 
 .Public Review 1 Documents
 [[Rev1DocTable]]
