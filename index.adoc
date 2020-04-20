@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 1.4
-:revdate: 2020-03-13
+:revnumber: 1.5
+:revdate: 2020-04-20
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -12,7 +12,7 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC Proposed (Release) Draft comment period has now been opened.
+The BIO-iTC Proposed (Release) Draft comment period has now been closed. Publication of the documents are planned for early May.
 
 The chart below shows the expected timeline for producing the final documents. More details are provided in the Proposed (Release) Draft Overview document.
 
@@ -29,7 +29,7 @@ The chart below shows the expected timeline for producing the final documents. M
                                                                               |
             +-----------------------------------------------------------------+
             |   +----------+   +----------+   +-----------+
-            |   |  cYEL    |   |          |   |           |
+            |   |          |   |  cYEL    |   |           |
             |   | Proposed |   | Proposed |   | Final     |
             +-->|  Draft   |-->|  Update  |-->| Document  |
                 |          |   |          |   | Published |
@@ -57,6 +57,15 @@ The following are the documents are intended to support this Public Review:
 |===
 
 == Current Documents for Review
+
+*NONE*
+
+
+== Previous Documents for Review
+
+For historical purposes, these are the documents from the previous Public Review periods.
+
+*_Proposed (Release) Draft_*
 
 Publication Date (Comments Period Starts):: March 13, 2020
 End of Comment Period:: April 13, 2020
@@ -87,9 +96,6 @@ The following are the documents are included in Proposed (Release) Draft period:
 
 |===
 
-== Previous Documents for Review
-
-For historical purposes, these are the documents from the previous Public Review periods.
 
 *_Public Review Draft 2_*
 
