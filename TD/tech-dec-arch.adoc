@@ -1,0 +1,33 @@
+= Biometrics Security iTC Archived Technical Decisions
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 0.1
+:revdate: 2020-04-21
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio-info@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC/cPP-biometrics
+:iTC-ITname: BIT
+
+== Archived Technical Decisions
+
+[%header,cols=".^1,.^2,.^1,.^1,.^1"]
+|===
+|ID
+|Title
+|Publication Date
+|Archive Date
+|Impact
+
+|BIO0001
+|
+|
+|
+|
+
+
+|===
