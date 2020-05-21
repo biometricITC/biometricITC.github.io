@@ -16,7 +16,7 @@ The BIO-iTC has released the first Public Release of the PP-Module and related d
 
 The chart below shows the expected timeline for producing the final documents. This will be updated again once work on the next update to the documentation starts.
 
-[ditaa,"PR_Timeline.png"]
+[ditaa, PR_Timeline, png]
 ....
                                   
     +----------+    +----------+   +----------+   +----------+   +----------+
@@ -51,7 +51,9 @@ The following are the documents are included in Version 1.0:
 [[v1.0DocTable]]
 [cols="5,1,1",options="header"]
 |===
-|Title ^|Version ^|Links
+|Title 
+^|Version 
+^|Links
 
 .^|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
 ^.^|1.0
@@ -72,6 +74,21 @@ The following are the documents are included in Version 1.0:
 |===
 
 \* The PP-Configuration is v0.99 due to waiting on the Protection Profile for Mobile Device Fundamentals update to allow use of the PP-Module.
+
+.Public Release v1.0 GitHub
+[[v1.0GHTable]]
+[cols="4,1",options="header"]
+|===
+|Title 
+^|Link
+
+.^|PP-Module V1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/1.0,40,]
+
+.^|Toolbox Overview V1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0,40,]
+
+|===
 
 == Supporting Review Documents
 
