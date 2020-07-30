@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.1
-:revdate: 2020-07-20
+:revnumber: 2.2
+:revdate: 2020-07-30
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -80,6 +80,9 @@ The following are the documents are included in Version 1.0:
 ^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0,40,]
 
 |===
+
+== Technical Decisions
+Technical Decisions produced by the BIO-iTC can be found at the link:./TD/tech-dec.html[BIO-iTC Technical Decisions] page.
 
 == Supporting Review Documents
 

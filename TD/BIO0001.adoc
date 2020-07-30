@@ -1,0 +1,66 @@
+= BIO0001 - Toolbox Overview editorial fixes
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 1.0
+:revdate: 2020-07-30
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC/cPP-toolboxes
+
+Published: {revdate}
+
+== Impacted Documents
+Toolbox v1.0 link:/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html[HTML] link:/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf[PDF]
+
+== References
+Section 4 Test Items
+
+== Issue Description
+Editorial corrections were make to the Test Items table. 
+
+== Resolution
+=== Toolbox v1.0
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|Tools
+|Required tools to capture a image of biometric characteristics and produce artefacts
+
+|BIO0001 Text
+|_Attack Tools/Media_
+|Required tools _and media_ to capture _an_ image of biometric characteristics and produce artefacts
+
+|===
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|Variations
+|Variants of artefacts to be generated based on this test item. The evaluator shall create those variants by slightly different *Recipe* or with different *Tools* specified here for the independent testing.
+
+|BIO0001 Text
+|Variations
+|Variants of artefacts to be generated based on this test item. The evaluator shall create those variants by slightly different _procedure (e.g. different *Recipe* or with different *Attack Tools/Media* specified here)_ for the independent testing.
+
+|===
+
+== Tracking
+* {iTC-GitHub}/pulls/40[Original Pull Request]
+* {iTC-GitHub}/pulls/41[Publication Pull Request]
