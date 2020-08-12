@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>BIO0001 - Toolbox Overview editorial fixes</title>
+<title>Biometric PAD Toolbox Overview [Toolbox]</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -455,147 +455,519 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .admonitionblock td.icon .icon-discussion:before {content:"\f086";color:#F5F008;}
 </style>
 </head>
-<body class="article toc2 toc-left">
+<body class="book toc2 toc-left">
 <div id="header">
-<h1>BIO0001 - Toolbox Overview editorial fixes</h1>
+<h1>Biometric PAD Toolbox Overview [Toolbox]</h1>
 <div class="details">
-<span id="revnumber">version 1.0,</span>
-<span id="revdate">2020-07-30</span>
+<span id="revnumber">version 1.0.1,</span>
+<span id="revdate">July 30, 2020</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_impacted_documents">Impacted Documents</a></li>
-<li><a href="#_references">References</a></li>
-<li><a href="#_issue_description">Issue Description</a></li>
-<li><a href="#_resolution">Resolution</a>
+<li><a href="#_introduction">1. Introduction</a></li>
+<li><a href="#_biometric_modalities_supported">2. Biometric modalities supported</a></li>
+<li><a href="#_purpose_of_this_toolbox_overview">3. Purpose of this toolbox overview</a></li>
+<li><a href="#_structure_of_the_toolbox">4. Structure of the Toolbox</a></li>
+<li><a href="#_common_guidance_for_independent_vulnerability_testing">5. Common guidance for Independent &amp; Vulnerability Testing</a>
 <ul class="sectlevel2">
-<li><a href="#_toolbox_v1_0">Toolbox v1.0</a></li>
+<li><a href="#_general_test_protocol">5.1. General test protocol</a></li>
 </ul>
 </li>
-<li><a href="#_tracking">Tracking</a></li>
+<li><a href="#_guidance_for_independent_testing_ate_ind_1">6. Guidance for Independent Testing (ATE_IND.1)</a>
+<ul class="sectlevel2">
+<li><a href="#_general_test_protocol_2">6.1. General test protocol</a></li>
+<li><a href="#_number_of_subjects">6.2. Number of Subjects</a></li>
+<li><a href="#_passfail_criteria">6.3. Pass/Fail Criteria</a></li>
+</ul>
+</li>
+<li><a href="#_guidance_for_penetration_testing_ava_van_1">7. Guidance for Penetration Testing (AVA_VAN.1)</a>
+<ul class="sectlevel2">
+<li><a href="#_general_test_protocol_3">7.1. General test protocol</a></li>
+<li><a href="#_number_of_subjects_2">7.2. Number of Subjects</a></li>
+<li><a href="#_passfail_criteria_2">7.3. Pass/Fail Criteria</a></li>
+</ul>
+</li>
+<li><a href="#_related_documents">8. Related Documents</a></li>
+<li><a href="#_revision_history">9. Revision History</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div id="preamble">
+<div class="sect1">
+<h2 id="_introduction">1. Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Published: 2020-07-30</p>
+<p>The TOE may be vulnerable to presentation attacks where attackers attempt to subvert the biometric enrolment or verification by presenting the Presentation Attack Instruments (PAIs). There is a wide range of PAIs that can be used, including natural biometric characteristics, such as dead eyes, or artefacts created from copied or faked characteristics. Using natural biometric characteristics is out of scope of <a href="#BIOPP-Module">[BIOPP-Module]</a> evaluation and the evaluator shall only use created artefacts to evaluate the TOE.</p>
+</div>
+<div class="paragraph">
+<p>The toolbox defines the common artefacts for each biometric modality based on publicly available information (e.g. research papers), experiences and knowledge shared among the BIO-iTC members. The evaluator needs to read the <a href="#BIOSD">[BIOSD]</a> Section 6 as it explains how the evaluator shall use the toolbox during the ATE_IND.1 (Independent testing) and AVA_VAN.1 (Penetration testing) evaluation for Presentation Attack Detection (PAD) in detail.</p>
+</div>
+<div class="paragraph">
+<p>This overview is originally developed for evaluation activities for FIA_MBV_EXT.3, however, the evaluator can apply the same principles to evaluation activities for FIA_MBE_EXT.3.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_impacted_documents">Impacted Documents</h2>
+<h2 id="_biometric_modalities_supported">2. Biometric modalities supported</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Toolbox v1.0</p>
+<p>Currently toolbox is developed for the following biometric modalities:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Eye</p>
+</li>
+<li>
+<p>Face</p>
+<div class="ulist">
+<ul>
+<li>
+<p>2D Image</p>
+</li>
+<li>
+<p>3D Image</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Fingerprint</p>
+</li>
+<li>
+<p>Vein</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><a class="image" href="/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html"><img src="data:image/png;base64,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" alt="iconfinder HTML Logo 65687" width="40"></a></span>
-<span class="image"><a class="image" href="/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAANkE3LLaAgAAGNJJREFUeNrtnQlwVFXWx8EZBSbKMIq4MHxOImgEJKggRBERdcANRAYdBUdxHBVFpT5BWcaSkf0TIvoVCEKxBFnFsFiQUGSrkGC2ymoWE5IKJF+WylJ0Ur2kknC++7/p27z3+r1eAvTrTl6q/hXovO5+753fPfecc5fXq5dnP72ZfpeZmTkrJSWlhv2m3NzcHqnU1FRKTk6mCxcuUGlpadLevXuHsXtzXa9u/APjX3/ixInX6urqqLW1ldrb23u0rFYrnT9/nkNQUVFh2r59ezgaiP1edbsfXFj/kpKSKsP4l4V7ce7cOS7mCUwRERGPdlcI+jINQes3DC9Xc3Mz9wKVlZX022+/dVsIbmIa0dDQ0KON3dbW5hBaP9TS0kL5+fmO390VggFMD/U0AJTGRr9vNpu5YHAIHgCxALwjfiNILCoq6nYQ3Mw0rqd1AVIAYHwlADA+BPePOACvnz17lrKzs+nXX3/tVhD0WADctf6LFy9STU0NFRQU8PfA+IAAaXJeXl63gcAAQKX1w/gQPAAzNn8PuoHuCAEHoLa2tse7f2Xrh5AFwOh4H+5RcXGxA4KMjAzEBaYFCxaMsENgABCIAGi1/qamJt7qYWi8D/8HEEoIfvnll4LJkycPDlQIOADo6wz37wwAAsC0tDT+PvwdXaUSAvw9JSWlYMaMGXf0CsCysQGAIvIXxkdqXFpayo0sqoP4u0gLpRBgDIFB8OuUKVMCDoIeC4Cy/1e2fgBQUlJCZ86ckZWIXUGQlJQUcBBwABDtBrRhmVHbG+upvZ6B3MAyGhfjGp72/wAABk5ISHAaJ9CCAAo0CAIegLbyEmrdvoGs08aQ9bEQsk4ZRW3fraG2ZlOXABDGFwDExsaqDha5goBBEzAQBC4AVgu1HvierOOGkOUvN8hkY6pfNo9MJhNZLJYuA4Ai0KlTpzRHDLUgwJyC+Pj4gICAA4DINqCMb7NS69efOxleyMrUNCyICmKjqaysjBtKCwBl/i8AgGExCHTy5EmXw8ZqEAAAxA7Me/g9BAEJQFtqPFnuCdIEAGob2o+Kv/yEp3KAQMx38AYAVAGPHTvmdu6AEgJUCgFBYmIinT592q8h4ADgxAMGAHML2ea/IjO2eegfyBLSV/Zae0gfyps9leftRUVF3LBdAeDIkSMeTSCRQoCuQwpBTEyM30IQeADUVpEl9CaZu2+cfB9dHHMn/7d4vSP4BsoJv5sP6MCVi1TXGwAwBHzo0CGPzssVBMgkWFfilxAEHABtZ07JWnorU+0rk6jhhbFOAGSOvoMaGxt5SxaBrrIO4A6AAwcOeHxuriCIi4ujEydO+B0EHAD0k4ECQOuPO5wCvsYnQqlh5gQy33ujDIzG0YOoKCGW98swiCfjAFIAENDt27fPu/NzA8HRo0f9CoLAA+DQdicAWkbeTDXzZlHT2MEOL4BU0BI2iIpjjvGSLgJBpITSUrAAQK0MDAPCcLt37/b+HF1AgLqCP0EQ8B6At3bm7mvnPE2N44bIADADgOhOAMTMHnelYCUAu3bt6tp5uoGABZd+AQEHADcoYGKA+J9V8/6L4XdRy/ABsmIQB+D0CRkAWoGgtBQsAMBw744dO7oOqwsIUGCKiorSHYKAA6C9+jxL+fo55/7DgsgsSQXbmFeoevAOqigqpMLCQo8AgOABhBcAAFu3br0yj+UCgujoaPrpp590hYADgFGvgAGgvoasE+92WQSSZgH19fX8posYQDkpxFUgiOwhIiLiyrstNxAcPHjw18cee0wXCAIPgGYT2d6Z7hEAOeNDHHUA3Hjp6idX3YDUC6xYscIxJ+BaQYByM0s3dYEg8ABABL9ns1sA2hkAeS+EU1VVlQMAGF1rYohWPQC1gGXLltGGDRto8+bNtGXLFt4tbNu2jccHO3fu5IEisgWkjPv37+e1A9aqeRGJ9fO8msgif15Wlur48eM8FrAXivBen0PAAUCeHFBjAcV5LMUb6HosgMUD+f98iZeCAYDaiKerWECZEWDCBySGfJVCS9b6m1Tic8RnISMAMAKUvXv3+hSCgASg/WIj2d56ziUArUP7UcGyD7DCl/fl1dXVmvMDPEkJIUyeRZcCmAAWBM8CSRaT8plEQri37gQYAIDwGl999dWGXp3rNnsbAGjMAGrdt8UlADaWFRR+u4YbBf2t1toHb8YGlBAIENQgUIKgBoT0dWQc6BbgDVi38n/MLgOZrvcJAGL1i/Sm+H03UJhN1kdDNOcDYMCo+FAkv7kYDdRa/9gVALQ8gQBACoEWCErhOIwcIiZAHMHsEsLUzwDAxYwg2+K31Vs/04XQAVTKbiyuDTdXOinkSmIBqRdQegI1b6CEQUs4DmMP+I2gkNllFFN/nwCAICngAMB5xh4ji2QASApAxcNDHO4fN1gUgbyFQDlRVIAg9QRacYESBHcSo5aICZhdxjD9yQDAlRrryfavaaoAlL0wjgeAAKC8vNyja/IUArXuQOoNtGBwJbEMDd9nB2Cc3T4GAC4LLFG7eRlYGQNUP3gn5WdmcAC8me/gaXeg1SVogeCJUBjC9yA99CkAYgVsIAKAsQHryxOcK4Ehfan0i4+5EeAJvLkmd4GhKxCUMCiBcCUAgO8xAPBStg9edi4EBbM4YFIolRcX8SgbU8S9AcDTBSSuQFCDQUsiBsD3oKhkAOCp6qrJ+lK4aip4aVg/ylr7b14E8nbtgzsIPAFBDQgtIVBFd6ULAKh3Ky88YDKBnDSyPj5MfTwghKWDk0dQRWHnaKC7TMAbCLS8gRQELSDUJApD+B6sKfApAGITBGn/JwXBn9X68wGy3PdHzYrgpXuDKHnlEu5mMTDU5e9xsaGEFAQlDGpAKIVzgwdAsIrPR0HIAMBD2b5Z7npUkHmB6qlhVJqd6VgldCUQaG0sJYVBCYQaFFIBABgf3RQ+3wDAGwA++YfboWHEAj8v+Bfva+EFrvT63IHgCRBSiUAQXQE+314J9B0ASD8CEoAq5jJfmegWAEwatU4OpaxTJ3m+jYzgqnQ/ChCkMGhBoRQAEHEAvIEBgDcGSEsgy9g7ZcZuDruVrMOc1w1eCulDx//7Xaq0b/96ta9RwKAEQg0KqaSeAEDABlg/YADgyU0/uke2JhCLQaoW/IMa5j6nWh6+NH4wJR/YwwG4Wl7AEyC0JJ2JBOH/ugAgdsISc9eE/BoAdn62dYud5gHmb1pHhXEx1KySGXRgweg7L1NxYSHvCvS+RqWnEKk3ZgnpCgBOxu8BqKsh6xtTnIK9pKhDvPRb/d7MztVByuLQyP6UsvM7KmcZgehzezwAYiu0QAKgNS+DLA/dITNux8QQSo6P42XVrNPR1PLAINmCUVEibp4ZTrks80HqZbPZ9Dl/lVhBAIBJIQYA7m7gqSNywzKZ3p5OORnpvKp2rrSUWjetVE8LWVeQtmopFRYW8NTQH1q/AYA3slnJFvFvJ6NmrFvODN85C6iq8gK11VSS9Zkw9XGCB26lnDMJjskierd+KQBYLOJTADABIaAAgGFnhssNGhpEMT/sdkwCqa2p6bzZUbs0awNlc6ZSfl6eY7hYT+MbAHhzEwtzZFPBEOx1PHUfpZyKdkwDc5R8LzaR7YNZ2msHNq/nXQZq8nq5fiUAWCRiAOAKgAPfy90/a83n579Gxaw1w5iYBSw9/9bkWLKE3araFTQ+eDvlpyQ5Rgv1av26AiBd++b3ALQ0k23BbEX615cOrFvpeMCDdDcQx5jB/65QXVWMrqDkb49TSXHRNa0NuDO+FAAsGdMNAFG6FBD4nVj/b3n4z/L0L3wIxR/cxyd/Yn4j3LnT+zBu8PdJql6g/Z4gKli9hAWOlXw18bU4b1flYCHdAMAMlEABwJYU47QItGnO01SYmcHdPwDA+Wu+d/QgVS/Q/OBtlHn0Rw4A4oerec7uxgOUAGCFkAGAmuAqFYtBkP4lfPo+VVdVcuMjrUNxRxOgjcvJgn0FVWoD+U/eTzlpqRyCq3X9nhrfAMATNZtko398gOeBgXR65/eO5/sgDnD5GSwrsM6erF4gursPlbz5PJWVlPDt5XxpfCkAWEruUwCke+L7MwA2xf5AHcF9qOGlR6gkJ9vh/j1y3/lZLI4YrF4gGn4T5a5aTDXVVdqehMUTXOaWK+73DQC8aVEL33BqsTEfzqV6+8bOcP+enrft2A9kCe2vGg+0hQ2k7E3rqTQpjpoO7aTWrxaTdcEcss55iqyvPkHWKfd3avpY5k2eJOvHs8n284Eut3whsYMJ9gnQFQCMTQsI/EYs/bM8cJs8+h9zOyXt3MrTvpycHD7dy6vPRDlZIzU0338LmZmXsLLflrv7uZ11hA0r2hbNZZ6j2u0sIC3pBgAmIfo9ACcOyoK3jpAbqOK5sVRWkM93AUP/j37bq8/MyyTL+CGaK4xt7oyuUlnM2r2Fd0eY4tVVALBZhAGAQhbmZsXsH6t9unf80o9Y9F/F9/FBCVjMqlEVrsd0kawZyWRZPp8sWEswYoD6lnMqMuM49v02IY19CS7Me5kyMzJ4lwQgAwIA6XNx/BIAZjjL2MGy1tnMWm7WscOOdfVY/eP0PouFrDWsW8g6S9YvP+40umJbeWE43vcHaz+AombOFKpYOo/yl82nws/epbIZj5J5WJBsvgHO69znH1JWZiaHEl2SNwCIaiC2iTEAkGrH17It4i8xI8bOnMzzdfT9fPDHZLp8fEM9d+/WbRvI8vQITReP3P/S0H7UNuoWqh37Z6oKG8Snlakd3zJqIOWt+5yy0lI7t3pj4JnemCqD5hLrllL37+bnJGISbwGAFzAAULp/FnlLDdc2/I+UsfUbPoADV4sZtTjOVpxPVmwmjQdKqBR7rMLow/pROwvwEh8fSckfvklZ276lMpZKpp08TjXhwdwbaO09aJv5COUf2kPn0s9S+6sTZedlZbAlJyXx1g8Aqr0MCAUA2CzKpwBgFqoAQMxl9xsAzpfJAjUYoWRiKM/T+SaQWZmUcvQwFa38jNpYaqZpdJYyYswg5flwil34HuX8uI+3UGQQYh8ftOzC2BjqmDpSe/Mp++d1YLdSyfRzeJLULRv5/AJ0SQhKMefQGwDEPdcdABRTxAnprvXLHDcaxrTeE0R5a5ZRPnPFJ9csp9LXn6VLowZwo5gVc/+4ocbcRoUvPkrHF39Eaft3URkzNgyPSB3ZA7wIRgHFGAC+04L5hizndxUUWhVl5JK501jwl85bP6bZY5KJdGWQJxL3HDuFGQBA9XVkmTFedtNNof2pYv5rZHr2AT4MjH5XNrIX3FkgMj//EMUueJvitn9HucwwYgUuugwYHe4Zo4aa311dSeY1i1im8CfX3oB9V/GcqZSdksxjEcywBljolgIGAOnDEf0KAKz8ZQGa7MYH92FpWB9uaKvCzXeE3UJ1/5xGUV+torTTMY5NmmB0GL/SPtzr1bWdPkqWj14j8+hB3NgArjN4ZOfwbBglfLGQctLT+SQUtHwxHO2t8cU9h+zbxBkAWD78u1s3zA3/xL2U+eUiij24j3KZMTAvQBSH8G+0fqwE6up5tLCswpSWRNG7d/B5AynLF1HU99/RmegTVMAMDqOj5YupZV0xvq4ASJ+O6RcANDNjbVmrOo1LuN525PMsO0jctIHOJsRTITMCAjnR2tHPi/V2XTa8YoUvFwOppqaadyHwLvgudCkISLvi9tWETad1A0BctC4AoN9d+QlZHgl2ejAkDwCZ+zeFDaTyRW9TOov8M1kgiBaI1i76dmkwd1UNr5B0USe8y9UwvPg83QEQJHd1UMMrmVgrPV9O5tWLOmfraFTqaicMpbxViymdGV1U2iAxB9DblEtL7tby+0KRkZG+BQDz0HUBoOIcmSM+V52mJRv2DQ2ilKhD3NjIsWF4uN7qKxh580fDi51Euj8AMPwP35FlapislduCO928ci1f+byXKYO1fFFiRX/b3Qwv3XsQD5/ongCwvrIl5giZZ01wMjKi+YYnR1DdE/fJ0juM+acc/ZH381lZWbzldzfD6w6A9BHp1wyAnDQyL3xTVqMXZVVr+F10fNH7VHAwkur+GsY9gaiwpSz9kApYOifq610ZZ/dnoysBwPXhETS6ASAenXa1UhoOUuQmMj81XDELl7XucYMp9b1XKWF/JF+lm7b4fUdJt411BS1TR1EqS/FEkUVs+96V6NrVLl3+IrR+3AefA4CFCNcEgIoyMs/7m2zunSiflr/+LCXs2UnnWO6O9C113y7qsFf9uOu/fwAlRqymMqz1Z64fHsDTIosnW7P5MwB4EJXuAEglbqhXrT4misySsXizvdW3P3kvxTLD5tlbNKL6/PQ0Mj09svNpn2KO/pxnqCA3x1FlQxm3OxpdKrh/BLh+B4C3QLRsXkOWh25XlGxvoPx3ZlF63GnHoAzcOnL4is/ecUyswG/z48Mo48QxfhyOQQCI7/VkV85ABwCg43F0PgUAK1G8AcAVFC0I9BRLt1vHD6HkjWspNzuL1+fRooVLLzuwk9qH97/s+kcOoITVn3PvgOMg5PvdydDdEoCm+jpqXjTXeds2FtVnHDtMOczVozXDoAjq8J7Gw5FkC7tFNq6ePXc6FeZ1jqlj5xLU23uC8SH0/5ibgIdS6gqAu82NnVRTTaZP33JatFk4LZyyUpK50bEHAYyK0Tm8pyk1kcwTQmTHV00Jo+zEOB70YcUyvARuitfnE6DSDQAsRboSAC5uXS8fvAnuS9kvTuDGT09P58bMycnmLo5H8ge+5wsvpIUg0yPBlBZ1kAeFOF4Efj3F+GLXcMREeDRtQAHQ8uJ4+XDt0H6UduSQY7sWUM1bfW4mmdctJvO9N8lW4bQ88hdKYWkgWjw8BVw/plT1JOMLAHDPfA4AliJdCQDS1uwYvXt+LEUuX0JHNm2k1Mjt1LJpBTVPDXPqJlAFTP5hJzc+Wn66fUJHTzO+FAA8oDqgAFCbgs3r+0P7UAcmbIYGkfmuGxQ1gT7U/Nf76QwzPjIDtPyebHwIXR6yn4ADwDzyZo9mz4rMAJXAzNefo7Mnj3Pjw+VDPdn4AgDMasJj6n0KANaiCQCk+9d7qqaN/3GawaOEoMM+4mebNpai1yynrPQ0PriDzSkQ8KHP9/Z7u5sQKwUkAHW1NdRw8jBdXPoetT0+lDqYy+czZzFhM/RGapsYQuXzZ1P0t+spMfok5TLDi+wAQSLI7+nGFwCg+rlp06YAA0CoqoqKsjIpjhk56oc99GPkLjq6fx9FHz1CKUlJPMVDa4e7RykYF4zc1zC+zgBgMeJVAUAhkdcisEH1D+4NF4nXDcM7C/cKHvGbb77pHgAY8h4AeEafA4DFiAYA+kusYtq4caN+AIhBCUO+l3h+sAFADxViJVREv/76awMAAwAfAoDlyO0JvbiaevWiakO6qJgpkykiIsIAoCeqiCldDwCwHNkAwH8A2LBhg34ANLATqNJZ1sOH6dKlS05qTUwk01tvyY5VO04In4Pjq/v2dfoOV++D9LjuQqY0PQDAcmR/BQD/VgLRvHChkyE7WB4tjlUe31ZQQHUhIaoAKN8npBcAZ5nWr19vAKBsiTAgjCWMpjSk0mho9ebVq2XeQw0AvYztCoC1a9caAKi5YrXX3RlS+p7GSZP8GoA8phQ9AMB69EAAAK5cuHRPDQmju+o6/BGANWvW6AvAeZ0lBQD/rxo4kJol7ryJBXbiWKkh1T6rknUFaseI12ysa6gdPVomva47lylZDwCwHt1fAVCL7GFUTwHQOsZVBqAnAElMqxnsBgCKLAAeoHHGDI+M6w0A6E7gUaTqcQBgPbo/dwGu5A4AuPSudB16KIcpkWnVqlUGAFcLABML/MQxNSyV9HcA4vUGoI6dQIXOskgAcHesOA7vUf6tgXUZWn939T69lG0HYOXKlQYA3gKg7MsR3Uv/doEFjv4OAMYB4vQAADtSSAeDAhEANbXX1fHgUWl8fwUAAWAM04oVK/QDoG1bZ3/kLzfFnZQ5vFA16+8D5Roq7BlAjF4AoPAgAIBav+gMBt0NX3pT5fI2IPLm5pV7oRIvVOyFirxQoULpEuNHMS1ZssTiSwAenjt3bgl/eKTdAwgBBMj6zGWZB11Wy+8vq7lXpy5K1CRRg0R1dmnBpAaCliG1jCC9wXl25UqUI1G2RJl2pUuUJtFZu1IkSpYoSaJEu+IlipMoRqJouyKYpk+f/guzy1hfADCA6cGgoKAVCxcutGHT6POfqBteanw1w2sZX83wWsbX8gDdwfDxbgx/iGkt07tMzCbzmUYz9b/WANzIFMo0q3fv3hGTJk0qnjVrVo0hfTR+/HjGZa/lTNOZhjL94VoD0IfpDqZHmd5gWsq0mul/DPlU65hWMX3K9CrTGKZbma6/1gD8jimI6b/sQcc0ptlMbzLNNeQzvWk3/LPokpnuZOrH1PtaA9DbDgFczSCmu5mGM40y5HPdxxTMNJCpL9N1vXz4c53d3fSzxwX9DflcN9oN/3tftHzjpwf8/D/3EKXGD+wE0AAAAABJRU5ErkJggg==" alt="Crystal Clear mimetype pdf" width="40"></a></span></p>
+<p>The toolbox is intended to be a state of the art set of test and is continually updated. The latest versions of the toolbox for each supported modality must be used by the evaluator at the time the testing begins.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_references">References</h2>
+<h2 id="_purpose_of_this_toolbox_overview">3. Purpose of this toolbox overview</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Section 4 Test Items</p>
+<p>This toolbox overview describes common instructions and components for all toolboxes, rather than repeating the same information in each toolbox. The evaluator shall refer both the toolbox overview and the relevant toolbox to perform independent and penetration testing. If there is conflict between the toolbox overview and a toolbox, the toolbox takes precedence over the overview.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_issue_description">Issue Description</h2>
+<h2 id="_structure_of_the_toolbox">4. Structure of the Toolbox</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Editorial corrections were make to the Test Items table.</p>
+<p>Each toolbox shares the same structure and includes following sections.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><em>modality name</em> Toolbox overview</dt>
+<dd>
+<p>This section provides specific information only applicable to relevant biometric modality.</p>
+</dd>
+<dt class="hdlist1"><em>modality name</em> Toolbox Inventory</dt>
+<dd>
+<p>This section categorizes tools and materials that the evaluator shall use to capture a image of biometric characteristics and produce artefacts.</p>
+</dd>
+<dt class="hdlist1"><em>modality name</em> Verification List</dt>
+<dd>
+<p>This section summarizes all test items that the evaluator shall peform during independent testing. As explained in <a href="#BIOSD">[BIOSD]</a> Section 6, the evaluator shall select specific test items for penetration testing based on the result of independent testing.</p>
+</dd>
+<dt class="hdlist1"><em>modality name</em> References</dt>
+<dd>
+<p>This section lists all publicly available information referred to create a toolbox.</p>
+</dd>
+<dt class="hdlist1">Test items</dt>
+<dd>
+<p>Each test item includes the following sub-sections. This toolbox overview provide a general test protocol in common for all toolboxes and these test items describe more detailed information to enable repeatable testing.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Sub-section name</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Number</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identification number of test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Attack type</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Category of attack</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Overview</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">General overview of test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Input</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Required input to produce artefacts</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Attack Tools/Media</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Required tools and media to capture an image of biometric characteristics and produce artefacts</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Recipe</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Procedure to create artefacts</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Variations</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Variants of artefacts to be generated based on this test item. The evaluator shall create those variants by slightly different procedure (e.g. different <strong>Recipe</strong> or with different <strong>Attack Tools/Media</strong> specified here) for the independent testing.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Prerequisite</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Any conditions that should meet to perform each test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Presentation</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instructions to present artefact to the TOE</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Penetration Testing and Attack Potential Rating Suggestions</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Suggestions that the evaluator should consider devising penetration tests from this test item and calculate the attack potential rating. The evaluator may change the rating considering actual expertise or knowledge of TOE used to succeed attacks, however, the evaluator shall report such changes with proper justification</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Pass Criteria</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">If this Pass criteria is defined in test items, evaluator shall follow it. Otherwise, the evaluator shall follow criteria defined in this toolbox overview for independent testing and one defined in <a href="#BIOSD">[BIOSD]</a> Section 9.3 for penetration testing</p></td>
+</tr>
+</tbody>
+</table>
+</dd>
+</dl>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_resolution">Resolution</h2>
+<h2 id="_common_guidance_for_independent_vulnerability_testing">5. Common guidance for Independent &amp; Vulnerability Testing</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>As explained in <a href="#BIOPP-Module">[BIOPP-Module]</a>, the TOE is the whole biometric system, including Comparison, Decision and Presentation Attack Detection Subsystems. This means in order to successfully overcome the TOE by the use of artefacts, a genuine person (test subject) has to be enroled into the TOE, artefacts have to be created referring the toolbox for the corresponding biometric modality and artefacts have to produce a attack presentation match (i.e. a successful presentation attack).</p>
+</div>
+<div class="paragraph">
+<p>For all types of testing, there are some common steps/procedures to be followed. These are detailed here.</p>
+</div>
 <div class="sect2">
-<h3 id="_toolbox_v1_0">Toolbox v1.0</h3>
+<h3 id="_general_test_protocol">5.1. General test protocol</h3>
 <div class="paragraph">
-<p>The following rows were changed (changes shown in italics):</p>
+<p>Presentation attacks can be performed through the following three steps.</p>
+</div>
+<div class="sect3">
+<h4 id="_preparation">5.1.1. Preparation</h4>
+<div class="paragraph">
+<p>Before testing can start, the following pre-requisite needs to be met:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>It has to be ensured that the test subject whose body part is used to produce the artefacts for testing is enroled into the TOE correctly as follows.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Enrolment shall be done following guidance provided by the TOE.</p>
+</li>
+<li>
+<p>At least 5 test enrolment transactions shall be performed by the test subject to ensure that the test subject can enrol correctly and be verified after enrolment.</p>
+</li>
+<li>
+<p>In case of repeated failures during the test enrolment, the test subject shall use a different body part (this could mean to use a different finger of the test subject in case of fingerprint verification) and start test enrolment transactions again.</p>
+</li>
+<li>
+<p>If the test subject cannot enrol any body parts during the test enrolment, the test subject shall be exempt from further testing.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_artefact_production">5.1.2. Artefact production</h4>
+<div class="paragraph">
+<p>Artefact production needs to follow these requirements:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The evaluator shall document any necessary information so that artefacts used for the test can be re-produced by the evaluator.</p>
+</li>
+<li>
+<p>Each produced artefact shall be identified by a unique identifier. This identifier shall be attached to the artefact at all times (as far as this is possible without destroying the artefact).</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_presentation_of_artefacts">5.1.3. Presentation of artefacts</h4>
+<div class="paragraph">
+<p>The results of the presentation of artefacts is defined as:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 50%;">
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-middle"></th>
-<th class="tableblock halign-left valign-middle">Sub-section name</th>
-<th class="tableblock halign-left valign-middle">Description</th>
+<th class="tableblock halign-left valign-middle">Result</th>
+<th class="tableblock halign-left valign-top">Definition</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th class="tableblock halign-left valign-middle"><p class="tableblock">Original Text</p></th>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Tools</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Required tools to capture a image of biometric characteristics and produce artefacts</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Successful (Match) Attack</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The TOE matches the artefact to the enroled user</p></td>
 </tr>
 <tr>
-<th class="tableblock halign-left valign-middle"><p class="tableblock">BIO0001 Text</p></th>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><em>Attack Tools/Media</em></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Required tools <em>and media</em> to capture <em>an</em> image of biometric characteristics and produce artefacts</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Failed Attack</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The TOE rejects the artefact</p></td>
 </tr>
 </tbody>
 </table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle"></th>
-<th class="tableblock halign-left valign-middle">Sub-section name</th>
-<th class="tableblock halign-left valign-middle">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="tableblock halign-left valign-middle"><p class="tableblock">Original Text</p></th>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Variations</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Variants of artefacts to be generated based on this test item. The evaluator shall create those variants by slightly different <strong>Recipe</strong> or with different <strong>Tools</strong> specified here for the independent testing.</p></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-middle"><p class="tableblock">BIO0001 Text</p></th>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Variations</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Variants of artefacts to be generated based on this test item. The evaluator shall create those variants by slightly different <em>procedure (e.g. different <strong>Recipe</strong> or with different <strong>Attack Tools/Media</strong> specified here)</em> for the independent testing.</p></td>
-</tr>
-</tbody>
-</table>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tracking">Tracking</h2>
+<h2 id="_guidance_for_independent_testing_ate_ind_1">6. Guidance for Independent Testing (ATE_IND.1)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For independent testing, this guidance is common for all toolboxes. More specific guidance for a specific biometric modality is provided in each toolbox.</p>
+</div>
+<div class="paragraph">
+<p>This is in addition to guidance in <a href="#_common_guidance_for_independent_vulnerability_testing">Common guidance for Independent &amp; Vulnerability Testing</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="_general_test_protocol_2">6.1. General test protocol</h3>
+<div class="paragraph">
+<p>The presentation attack can be performed through the following two steps after performing Preparation in Section 5.</p>
+</div>
+<div class="sect3">
+<h4 id="_artefact_production_2">6.1.1. Artefact production</h4>
+<div class="paragraph">
+<p>The production of artefacts for each toolbox shall be performed as follows:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The evaluator shall produce all artefacts defined in the toolbox.</p>
+</li>
+<li>
+<p>The evaluator shall follow instructions in the toolbox to produce artefacts, especially the evaluator shall use tools or materials (e.g. camera, display or printer) that meet requirements in toolbox.</p>
+</li>
+<li>
+<p>The evaluator shall produce three artefacts from each test subject.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_presentation_of_artefacts_2">6.1.2. Presentation of artefacts</h4>
+<div class="paragraph">
+<p>The evaluator shall present artefacts to the TOE to perform presentation attacks.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Each artefact shall be presented to the TOE 10 times</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_number_of_subjects">6.2. Number of Subjects</h3>
+<div class="paragraph">
+<p>The evaluator shall prepare three test subjects for the above test. A test subject is defined as one individual, and not different body parts from one person (i.e. three fingers from one person could not be considered to be three test subjects for the creation of artefacts).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_passfail_criteria">6.3. Pass/Fail Criteria</h3>
+<div class="paragraph">
+<p>The following pass criteria shall be applied if no other criteria are defined in the toolbox.</p>
+</div>
+<div class="paragraph">
+<p>A TOE passes the test if and only if it reliably defeats the use of <strong>all artefacts (i.e. 3 X 3 = 9 artefacts in total)</strong> that have to be built according to the toolbox. This means that none of the artefacts must be able to reproducibly overcome the TOE.</p>
+</div>
+<div class="paragraph">
+<p>To reproducibly overcome the TOE by the use of a <strong>certain artefact</strong> in the outlined test scenario is defined as follows:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Pass/Fail Criteria</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 60%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Attempts</th>
+<th class="tableblock halign-left valign-top">Number of matches</th>
+<th class="tableblock halign-left valign-top">Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE passes this artefact</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE passes this artefact</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Additional ten (10) attempts shall be made</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE passes this artefact</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Up to 20</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3 or more</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE fails this artefact</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>The maximum number of attempts allowed with one artefact is twenty (20). If three (3) matches are made to the artefact, the independent test fails (further attempts are not necessary even if 20 total attempts have not yet been made).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_guidance_for_penetration_testing_ava_van_1">7. Guidance for Penetration Testing (AVA_VAN.1)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The evaluator moves to penetration testing only if the TOE passes independent testing. As described in <a href="#BIOSD">[BIOSD]</a> Section 6, the evaluator shall select those artefacts that show higher imposter attack presentation match rate during independent testing or higher quality artefacts.</p>
+</div>
+<div class="paragraph">
+<p>This is in addition to guidance in <a href="#_common_guidance_for_independent_vulnerability_testing">Common guidance for Independent &amp; Vulnerability Testing</a>.</p>
+</div>
+<div class="sect2">
+<h3 id="_general_test_protocol_3">7.1. General test protocol</h3>
+<div class="paragraph">
+<p>Presentation attack can be performed through the following two steps after performing Preparation in Section 5.</p>
+</div>
+<div class="sect3">
+<h4 id="_artefact_production_3">7.1.1. Artefact production</h4>
+<div class="paragraph">
+<p>The production of artefacts for each toolbox shall be performed as follows:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The evaluator should select artefacts in a toolbox that may produce attack presentation match at higher probability considering the result of independent testing.</p>
+</li>
+<li>
+<p>The evaluator may refine the production process of artefacts, as explained in <a href="#BIOSD">[BIOSD]</a> Section 6. The toolbox describes generalized process to produce artefacts referring to research papers. These research papers may describe more detailed information to produce better artefacts. Such information is valuable if the TOE&#8217;s PAD algorithm is the same or similar to ones tested by researchers. The evaluator shall consider relevant research papers to be authoritative over the generalized descriptions provided in a toolbox for improving the creation of artefacts.</p>
+</li>
+<li>
+<p>The evaluator may produce an arbitrary number of artefacts from each test subject within allowed time period. As described in <a href="#BIOSD">[BIOSD]</a>, both independent and penetration testing shall be finished within one week.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_presentation_of_artefacts_3">7.1.2. Presentation of artefacts</h4>
+<div class="paragraph">
+<p>The evaluator shall present artefacts to the TOE to perform presentation attacks.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Each artefact shall be presented to the TOE an arbitrary number of times within allowed time period. As described in <a href="#BIOSD">[BIOSD]</a>, both independent and penetration testing shall be finished within one week.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_number_of_subjects_2">7.2. Number of Subjects</h3>
+<div class="paragraph">
+<p>If the evaluator can create artefacts that produce an attack presentation match during independent testing, the evaluator should select the test subjects whose artefacts had successful matches and increase the number of attempts. The evaluator may replace the test subject for penetration testing as described in <a href="#BIOSD">[BIOSD]</a> Section 6.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_passfail_criteria_2">7.3. Pass/Fail Criteria</h3>
+<div class="paragraph">
+<p>As described in <a href="#BIOSD">[BIOSD]</a>, both independent and penetration testing shall be finished within one week. The evaluator may select one or two artefacts and perform an arbitrary number of attempts within this time period. If the evaluator can create artefacts that meet the criteria defined in <a href="#BIOSD">[BIOSD]</a> Section 9.3, the TOE fails AVA_VAN.1 evaluation.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_related_documents">8. Related Documents</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://github.com/biometricITC/cPP-toolboxes/pulls/40">Original Pull Request</a></p>
+<p><span id="BIOPP-Module">[BIOPP-Module]</span> collaborative PP-Module for Biometric enrolment and verification - for unlocking the device -, May 11, 2020, Version 1.0</p>
 </li>
 <li>
-<p><a href="https://github.com/biometricITC/cPP-toolboxes/pulls/41">Publication Pull Request</a></p>
+<p><span id="BIOSD">[BIOSD]</span> Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device -, May 11, 2020, Version 1.0</p>
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_revision_history">9. Revision History</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Revision history</caption>
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 33.3333%;">
+<col style="width: 50.0001%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-middle">Version</th>
+<th class="tableblock halign-left valign-middle">Date</th>
+<th class="tableblock halign-left valign-top">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.3</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">May 30, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Public Review Draft 1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.5</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">December 20, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Public Review Draft 2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.6</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">March 13, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Proposed Release</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">1.0</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">May 11, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Public Release</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0<br>
-Last updated 2020-08-12 10:04:12 -0400
+Version 1.0.1<br>
+Last updated 2020-08-12 10:12:28 -0400
 </div>
 </div>
 </body>

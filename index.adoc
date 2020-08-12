@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.2
-:revdate: 2020-07-30
+:revnumber: 2.3
+:revdate: 2020-08-12
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -40,27 +40,37 @@ The following are the documents are included in Version 1.0:
 
 .Public Release v1.0 Documents
 [[v1.0DocTable]]
-[cols="5,1,1",options="header"]
+[cols="5,1,1,1,1",options="header"]
 |===
 |Title 
-^|Version 
-^|Links
+^.^|Version 
+^.^|Links
+^.^|Latest TD Version
+^.^|Links
 
 .^|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
 ^.^|1.0
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/MOD-BIO-enrl-v1.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/MOD-BIO-enrl-v1.0.html,40,]
+^.^|
+^.^|
 
 .^|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]*
 ^.^|0.99
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/PPC+MDF+BIO-v0.99.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/PPC+MDF+BIO-v0.99.html,40,]
+^.^|
+^.^|
 
 .^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
 ^.^|1.0
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/SD-BIO-enrl-v1.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/SD-BIO-enrl-v1.0.html,40,]
+^.^|
+^.^|
 
 .^|Biometric PAD Toolbox Overview [Toolbox]
 ^.^|1.0
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
+^.^|1.0.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.html,40,]
 
 |===
 

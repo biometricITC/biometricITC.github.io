@@ -1,6 +1,6 @@
 = BIO0001 - Toolbox Overview editorial fixes
 :showtitle:
-:imagesdir: images
+:imagesdir: ../images
 :icons: font
 :revnumber: 1.0
 :revdate: 2020-07-30
@@ -15,7 +15,10 @@
 Published: {revdate}
 
 == Impacted Documents
-Toolbox v1.0 link:/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html[HTML] link:/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf[PDF]
+Toolbox v1.0 
+
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]
 
 == References
 Section 4 Test Items
