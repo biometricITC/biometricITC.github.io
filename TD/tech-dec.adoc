@@ -36,13 +36,13 @@ The iTC issues Technical Decisions based on requests for interpretation to clari
 |July 30, 2020
 |Toolbox v1.0 
 
-image:iconfinder_HTML_Logo_65687.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
-image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]
 |Toolbox v1.0.1
 
 image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0.1,40,]
-image:iconfinder_HTML_Logo_65687.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.html,40,]
-image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.pdf,40,]
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.pdf,40,]
 
 
 |===
