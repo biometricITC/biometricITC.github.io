@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.5
-:revdate: 2020-09-25
+:revnumber: 2.6
+:revdate: 2020-10-27
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -12,7 +12,7 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has opened the Toolboxes Proposed (Release) Draft review period on September 25, 2020. Comments will be accepted until October 26, 2020.
+The BIO-iTC has closed the Toolboxes Proposed (Release) Draft review period on October 26, 2020. The iTC is currently reviewing comments to produce the published toolbox documents.
 
 The chart below shows the expected timeline for producing the final Toolbox documents. This will be updated again once work on the next update to the documentation starts.
 
@@ -20,7 +20,7 @@ The chart below shows the expected timeline for producing the final Toolbox docu
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |          |   | Public   |   |  cYEL    |   |          |   |          |
+    |          |   |          |   | Public   |   |          |   |   cYEL   |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
@@ -112,6 +112,10 @@ The following are the documents are intended to support Public Reviews:
 
 == Current Documents for Review
 
+None
+
+== Previous Documents for Review
+
 *_Toolboxes Proposed (Release) Draft_*
 
 Publication Date:: September 25, 2020
@@ -145,8 +149,6 @@ The toolboxes are presented as GitHub repositories for each separate biometric m
 |https://github.com/biometricITC/Vein-Toolbox/issues/new[New Vein Issue,window=_blank]
 
 |===
-
-== Previous Documents for Review
 
 *_Toolboxes Public Review Draft 1_*
 
