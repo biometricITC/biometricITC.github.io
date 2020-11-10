@@ -1,0 +1,86 @@
+= BIO0002 - Additional Reference for Biometric Quality
+:showtitle:
+:imagesdir: ../images
+:icons: font
+:revnumber: 1.0
+:revdate: 2020-11-10
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC/cPP-biometrics
+
+Published: {revdate}
+
+== Impacted Documents
+Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD] v1.0 
+
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/SD-BIO-enrl-v1.0.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/SD-BIO-enrl-v1.0.pdf,40,]
+
+== References
+Section 10. Related Documents
+
+== Issue Description
+An additional reference was added to address biometric sample quality. In addition in two sections cross-references were added to point to this document when discussing sample quality. 
+
+== Resolution
+=== Supporting Document v1.0
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|2.3.2.5.1 Strategy for ASE_TSS and AGD_OPE/ADV_FSP
+|The evaluator shall examine the TSS to understand how the TOE generates templates of sufficient quality from samples at enrolment.
+
+|BIO0002 Text
+|2.3.2.5.1 Strategy for ASE_TSS and AGD_OPE/ADV_FSP
+|The evaluator shall examine the TSS to understand how the TOE generates templates of sufficient quality from samples at enrolment __(see <<Biometric quality>> for a review of measures of sample quality)__.
+
+|===
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|2.3.4.5.1. Strategy for ASE_TSS and AGD_OPE/ADV_FSP
+|The evaluator shall examine the TSS to understand how the TOE checks quality of samples captured.
+
+|BIO0002 Text
+|2.3.4.5.1. Strategy for ASE_TSS and AGD_OPE/ADV_FSP
+|The evaluator shall examine the TSS to understand how the TOE checks quality of samples captured __(see <<Biometric quality>> for a review of measures of sample quality)__.
+
+|===
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|10. Related Documents
+|(text was added at the end of the list)
+
+|BIO0002 Text
+|10. Related Documents
+|__[Biometric quality] Biometric quality: a review of fingerprint, iris, and face - July 2, 2014, https://link.springer.com/article/10.1186/1687-5281-2014-34.__
+
+|===
+
+== Tracking
+* {iTC-GitHub}/pulls/295[Original Pull Request]
+* {iTC-GitHub}/pulls/298[Publication Pull Request]
