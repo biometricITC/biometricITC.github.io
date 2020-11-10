@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.6
-:revdate: 2020-10-27
+:revnumber: 2.7
+:revdate: 2020-11-10
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -12,15 +12,17 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has closed the Toolboxes Proposed (Release) Draft review period on October 26, 2020. The iTC is currently reviewing comments to produce the published toolbox documents.
+The BIO-iTC has publichsed the Eye, Face and Vein toolboxes on November 10, 2020. 
 
-The chart below shows the expected timeline for producing the final Toolbox documents. This will be updated again once work on the next update to the documentation starts.
+The iTC is currently reviewing the Fingerprint toolbox internally before releasing the first Public Review Draft.
+
+The chart below shows the expected timeline for producing the final Fingerprint Toolbox documents. This will be updated again once work on the next update to the documentation starts.
 
 [ditaa, PR_Timeline, png]
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |          |   | Public   |   |          |   |   cYEL   |   |          |
+    |  cYEL    |   |          |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
@@ -36,7 +38,7 @@ Publication Date:: May 11, 2020
 Sunset Date:: Active
 Retired Date:: Active
 
-The following are the documents are included in Version 1.0:
+The following are the documents are included in Version 1.0 (for toolboxes, check <<v1.0GHTable>>):
 
 .Public Release v1.0 Documents
 [[v1.0DocTable]]
@@ -63,8 +65,8 @@ The following are the documents are included in Version 1.0:
 .^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
 ^.^|1.0
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/SD-BIO-enrl-v1.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/SD-BIO-enrl-v1.0.html,40,]
-^.^|
-^.^|
+^.^|1.0.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.0/SD-BIO-enrl-v1.0.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.0/SD-BIO-enrl-v1.0.1.html,40,]
 
 .^|Biometric PAD Toolbox Overview [Toolbox]
 ^.^|1.0
@@ -88,6 +90,15 @@ The following are the documents are included in Version 1.0:
 
 .^|Toolbox Overview V1.0 Release package
 ^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0,40,]
+
+.^|Eye Toolbox V1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Eye-Toolbox/releases/tag/v1.0,40,]
+
+.^|Face Toolbox V1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Face-Toolbox/releases/tag/v1.0,40,]
+
+.^|Vein Toolbox V1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Vein-Toolbox/releases/tag/v1.0,40,]
 
 |===
 
@@ -116,73 +127,7 @@ None
 
 == Previous Documents for Review
 
-*_Toolboxes Proposed (Release) Draft_*
-
-Publication Date:: September 25, 2020
-End of Comment Period:: October 26, 2020
-
-The toolboxes are presented as GitHub repositories for each separate biometric modality. All the documents in each repository are included in the review.
-
-.Toolboxes Proposed (Release) Draft Repositories
-[[ProposedRelDocTable]]
-[cols="1,^1,^1",options="header"]
-|===
-
-.^|Title 
-^.^|Link
-^.^|New Issue
-
-|Toolboxes Proposed (Release) Draft Overview
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-proposed-draft/Toolbox_Proposed_Draft.pdf,40,]
-|
-
-|Eye Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Eye-Toolbox,40,]
-|https://github.com/biometricITC/Eye-Toolbox/issues/new[New Eye Issue,window=_blank]
-
-|Face Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Face-Toolbox,40,]
-|https://github.com/biometricITC/Face-Toolbox/issues/new[New Face Issue,window=_blank]
-
-|Vein Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Vein-Toolbox,40,]
-|https://github.com/biometricITC/Vein-Toolbox/issues/new[New Vein Issue,window=_blank]
-
-|===
-
-*_Toolboxes Public Review Draft 1_*
-
-Publication Date:: July 20, 2020
-End of Comment Period:: August 31, 2020
-
-The toolboxes are presented as GitHub repositories for each separate biometric modality. All the documents in each repository are included in the review.
-
-.Toolboxes Public Review Draft 1 Repositories
-[[Rev1DocTable]]
-[cols="1,^1,^1",options="header"]
-|===
-
-.^|Title 
-^.^|Link
-^.^|New Issue
-
-|Toolboxes Public Review Draft 1 Overview
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-pr-draft1/Toolbox_Public_review-draft1.pdf,40,]
-|
-
-|Eye Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Eye-Toolbox,40,]
-|https://github.com/biometricITC/Eye-Toolbox/issues/new[New Eye Issue,window=_blank]
-
-|Face Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Face-Toolbox,40,]
-|https://github.com/biometricITC/Face-Toolbox/issues/new[New Face Issue,window=_blank]
-
-|Vein Toolbox
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Vein-Toolbox,40,]
-|https://github.com/biometricITC/Vein-Toolbox/issues/new[New Vein Issue,window=_blank]
-
-|===
+See the <<Public Review Archive>> for previous review periods.
 
 == Public Review Archive
 Previous public review updates (with links to the documents under review) can be found at the link:./PR-archive.html[Public Release Archive].
