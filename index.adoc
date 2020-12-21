@@ -1,34 +1,36 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.7
-:revdate: 2020-11-10
+:revnumber: 2.8
+:revdate: 2020-12-21
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
 
 https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal BIO-iTC Page]
 
+https://github.com/biometricITC/[Biometrics iTC GitHub organization]
+
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has publichsed the Eye, Face and Vein toolboxes on November 10, 2020. 
+The BIO-iTC has publichsed the Fingerprint toolbox for Public Review Draft 1 on December 21, 2020. 
 
-The iTC is currently reviewing the Fingerprint toolbox internally before releasing the first Public Review Draft.
-
-The chart below shows the expected timeline for producing the final Fingerprint Toolbox documents. This will be updated again once work on the next update to the documentation starts.
+The chart below shows the expected timeline for producing the final Fingerprint Toolbox documents. This will be updated as the review process progresses.
 
 [ditaa, PR_Timeline, png]
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |  cYEL    |   |          |   | Public   |   |          |   |          |   |          |
+    |          |   |  cYEL    |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
     |          |   |  (45d)   |   | (60d)    |   |  (30d)   |   | (10d)    |   |          |
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
 ....
+
+The <<Current Documents for Review>> section provides links to the Fingerprint toolbox.
 
 == Current Published Documents
 
@@ -122,8 +124,30 @@ The following are the documents are intended to support Public Reviews:
 |===
 
 == Current Documents for Review
+*_Fingerprint Toolbox Public Review Draft 1_*
 
-None
+
+Publication Date:: December 21, 2020
+End of Comment Period:: February 5, 2021
+
+.Fingerprint Toolbox Public Review Draft 1 Repository
+[[FPRev1DocTable]]
+[cols="1,^1,^1",options="header"]
+|===
+
+.^|Title 
+^.^|Link
+^.^|New Issue
+
+|Fingerprint Toolbox Public Review Draft 1 Overview
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-fp-draft1/Fingerprint_Toolbox_Public_review-draft1.pdf,40,]
+|
+
+|Fingerprint Toolbox
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox,40,]
+|https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
+
+|===
 
 == Previous Documents for Review
 
