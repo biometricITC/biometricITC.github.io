@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.8
-:revdate: 2020-12-21
+:revnumber: 2.9
+:revdate: 2021-02-08
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -14,7 +14,7 @@ https://github.com/biometricITC/[Biometrics iTC GitHub organization]
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has publichsed the Fingerprint toolbox for Public Review Draft 1 on December 21, 2020. 
+The BIO-iTC has closed the Public Review Draft 1 period and started the Public Review Draft 1 Update cycle. 
 
 The chart below shows the expected timeline for producing the final Fingerprint Toolbox documents. This will be updated as the review process progresses.
 
@@ -22,11 +22,11 @@ The chart below shows the expected timeline for producing the final Fingerprint 
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |  cYEL    |   | Public   |   |          |   |          |   |          |
+    |          |   |          |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
-    |          |   |  (45d)   |   | (60d)    |   |  (30d)   |   | (10d)    |   |          |
+    |          |   |  (45d)   |   | (60d)cYEL|   |  (30d)   |   | (10d)    |   |          |
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
 ....
 
