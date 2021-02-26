@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.9
-:revdate: 2021-02-08
+:revnumber: 2.10
+:revdate: 2021-02-26
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -14,7 +14,7 @@ https://github.com/biometricITC/[Biometrics iTC GitHub organization]
 To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has closed the Public Review Draft 1 period and started the Public Review Draft 1 Update cycle. 
+While the BIO-iTC has closed the Public Review Draft 1 period, it has opened a short review period during the Update cycle specifically for a new mold material. This is being published as the Public Review Draft 1 - Moldable Plastics and will be open for 4 weeks.
 
 The chart below shows the expected timeline for producing the final Fingerprint Toolbox documents. This will be updated as the review process progresses.
 
@@ -124,6 +124,32 @@ The following are the documents are intended to support Public Reviews:
 |===
 
 == Current Documents for Review
+*_Fingerprint Toolbox Public Review Draft 1 - Moldable Plastics_*
+
+
+Publication Date:: March 1, 2021
+End of Comment Period:: March 26, 2021
+
+.Fingerprint Toolbox Public Review Draft 1 - Moldable Plastics Repository
+[[FPRev1MPDocTable]]
+[cols="1,^1,^1",options="header"]
+|===
+
+.^|Title 
+^.^|Link
+^.^|New Issue
+
+|Fingerprint Toolbox Public Review Draft 1 Overview
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-fp-draft1/Fingerprint_Toolbox_Public_review-draft1-moldable_plastics.pdf,40,]
+|
+
+|Fingerprint Toolbox
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox,40,]
+|https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
+
+|===
+
+== Previous Documents for Review
 *_Fingerprint Toolbox Public Review Draft 1_*
 
 
@@ -148,8 +174,6 @@ End of Comment Period:: February 5, 2021
 |https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
 
 |===
-
-== Previous Documents for Review
 
 See the <<Public Review Archive>> for previous review periods.
 
