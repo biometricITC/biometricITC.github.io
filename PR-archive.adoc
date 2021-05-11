@@ -1,12 +1,87 @@
 = Biometrics Security iTC (BIO-iTC) Archived Public Draft Announcements
 :showtitle:
 :imagesdir: images
-:revnumber: 1.1
-:revdate: 2020-11-10
+:revnumber: 1.2
+:revdate: 2021-05-11
 
 == Previous Documents for Review
 
 For historical purposes, these are the documents from the previous Public Review periods. These are listed with the most recent reviews at the top.
+
+*_Fingerprint Toolbox Proposed Draft_*
+
+
+Publication Date:: April 5, 2021
+End of Comment Period:: May 7, 2021
+
+.Fingerprint Toolbox Proposed Draft Repository
+[[FPPD1DocTable]]
+[cols="1,^1,^1",options="header"]
+|===
+
+.^|Title 
+^.^|Link
+^.^|New Issue
+
+|Fingerprint Toolbox Proposed Draft Overview
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-fp-proposed-draft/Fingerprint_Toolbox_Proposed_Draft.pdf,40,]
+|
+
+|Fingerprint Toolbox
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox,40,]
+|https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
+
+|===
+
+*_Fingerprint Toolbox Public Review Draft 1 - Moldable Plastics_*
+
+
+Publication Date:: March 1, 2021
+End of Comment Period:: March 26, 2021
+
+.Fingerprint Toolbox Public Review Draft 1 - Moldable Plastics Repository
+[[FPRev1MPDocTable]]
+[cols="1,^1,^1",options="header"]
+|===
+
+.^|Title 
+^.^|Link
+^.^|New Issue
+
+|Fingerprint Toolbox Public Review Draft 1 Overview
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-fp-draft1/Fingerprint_Toolbox_Public_review-draft1-moldable_plastics.pdf,40,]
+|
+
+|Fingerprint Toolbox
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox,40,]
+|https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
+
+|===
+
+*_Fingerprint Toolbox Public Review Draft 1_*
+
+
+Publication Date:: December 21, 2020
+End of Comment Period:: February 5, 2021
+
+.Fingerprint Toolbox Public Review Draft 1 Repository
+[[FPRev1DocTable]]
+[cols="1,^1,^1",options="header"]
+|===
+
+.^|Title 
+^.^|Link
+^.^|New Issue
+
+|Fingerprint Toolbox Public Review Draft 1 Overview
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./TB-drafts/v1.0-fp-draft1/Fingerprint_Toolbox_Public_review-draft1.pdf,40,]
+|
+
+|Fingerprint Toolbox
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox,40,]
+|https://github.com/biometricITC/Fingerprint-Toolbox/issues/new[New Fingerprint Issue,window=_blank]
+
+|===
 
 *_Toolboxes Proposed (Release) Draft_*
 
