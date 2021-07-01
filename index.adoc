@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.12
-:revdate: 2021-05-11
+:revnumber: 2.2
+:revdate: 2021-07-01
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -22,11 +22,11 @@ The chart below shows the expected timeline for producing the v1.1 documents. Th
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |          |   | Public   |   |          |   |          |   |          |
+    |          |   |  cYEL    |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
-    | cYEL     |   |  (45d)   |   | (60d)    |   |  (30d)   |   | (10d)    |   |          |
+    |          |   |  (45d)   |   | (60d)    |   |  (30d)   |   | (10d)    |   |          |
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
 ....
 
@@ -127,7 +127,38 @@ The following are the documents are intended to support Public Reviews:
 |===
 
 == Current Documents for Review
-While documents have not currently been published for review, the https://github.com/biometricITC/cPP-biometrics/projects/4[PP-Module v1.1 Maintenance] project provides the current status of the issues being reviewed.
+*_v1.1 Public Review Draft 1_*
+
+Publication Date:: July 1, 2021
+End of Comment Period:: August 15, 2021
+
+.Public Review 1 Documents
+[[Rev1DocTable]]
+[cols="5,1,1",options="header"]
+|===
+|Title ^|Version ^|Links
+
+.^|Public Review Draft 1 Overview
+|
+^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/pr-draft1/BIO-v1.1-Public_Review_Draft1_Overview.pdf,40,]
+
+.^|collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
+^.^|1.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/pr-draft1/MOD-BIO-enrl-v1.1DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/pr-draft1/MOD-BIO-enrl-v1.1DRAFT.html,40,]
+
+.^|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative Protection Profile Module for Mobile biometric enrolment and verification - for unlocking the device -
+^.^|1.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/pr-draft1/PPC+MDF+BIO-v1.1DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/pr-draft1/PPC+MDF+BIO-v1.1DRAFT.html,40,]
+
+.^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
+^.^|1.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/pr-draft1/SD-BIO-enrl-v1.1DRAFT.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/pr-draft1/SD-BIO-enrl-v1.1DRAFT.html,40,]
+
+.^|GitHub repository (develop branch)
+^.^|
+^.^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/tree/develop,40,]
+
+|===
 
 == Previous Documents for Review
 
