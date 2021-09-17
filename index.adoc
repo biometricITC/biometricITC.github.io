@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.2
-:revdate: 2021-07-01
+:revnumber: 2.3
+:revdate: 2021-09-17
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -22,11 +22,11 @@ The chart below shows the expected timeline for producing the v1.1 documents. Th
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |  cYEL    |   | Public   |   |          |   |          |   |          |
+    |          |   |          |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
-    |          |   |  (45d)   |   | (60d)    |   |  (30d)   |   | (10d)    |   |          |
+    |          |   |  (45d)   |   | (60d)cYEL|   |  (30d)   |   | (10d)    |   |          |
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
 ....
 
@@ -127,7 +127,7 @@ The following are the documents are intended to support Public Reviews:
 |===
 
 == Current Documents for Review
-*_v1.1 Public Review Draft 1_*
+*_v1.1 Public Review Draft 1 (Comment period closed)_*
 
 Publication Date:: July 1, 2021
 End of Comment Period:: August 15, 2021
