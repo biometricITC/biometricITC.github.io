@@ -32,16 +32,16 @@ The <<Current Documents for Review>> section provides links to the documents und
 
 == Current Published Documents
 
-*_Version 1.0_*
+*_Version 1.1_*
 
-Publication Date:: May 11, 2020
+Publication Date:: November 9, 2021
 Sunset Date:: Active
 Retired Date:: Active
 
-The following are the documents are included in Version 1.0 (for toolboxes, check <<v1.0GHTable>>):
+The following are the documents are included in Version 1.1 (for toolboxes, check <<v1.1GHTable>>):
 
-.Public Release v1.0 Documents
-[[v1.0DocTable]]
+.Public Release v1.1 Documents
+[[v1.1DocTable]]
 [cols="5,1,1,1,1",options="header"]
 |===
 |Title 
@@ -77,7 +77,7 @@ The following are the documents are included in Version 1.0 (for toolboxes, chec
 |===
 
 .GitHub Public Release Packages
-[[v1.0GHTable]]
+[[v1.1GHTable]]
 [cols="4,1",options="header"]
 |===
 |Title 
