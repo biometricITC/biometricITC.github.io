@@ -1,12 +1,48 @@
 = Biometrics Security iTC (BIO-iTC) Archived Public Draft Announcements
 :showtitle:
 :imagesdir: images
-:revnumber: 1.3
-:revdate: 2021-11-16
+:revnumber: 1.4
+:revdate: 2022-08-02
 
 == Previous Documents for Review
 
 For historical purposes, these are the documents from the previous Public Review periods. These are listed with the most recent reviews at the top.
+
+*_v1.1PRE Proposed Update_*
+
+.Public Release v1.1 Documents
+[[v1.1DocTable]]
+[cols="5,1,1",options="header"]
+|===
+|Title 
+^.^|Version 
+^.^|Links
+
+.^|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+^.^|1.1PRE
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/1.1PRE/MOD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/1.1PRE/MOD-BIO-v1.1.html,40,]
+
+.^|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
+^.^|1.1PRE
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/1.1PRE/CFG-MDF-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/1.1PRE/CFG-MDF-BIO-v1.1.html,40,]
+
+.^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
+^.^|1.1PRE
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/1.1PRE/SD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/1.1PRE/SD-BIO-v1.1.html,40,]
+
+.^|Biometric PAD Toolbox Overview [Toolbox]
+^.^|1.1PRE
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/1.1PRE/BIO-PAD-Toolbox-Overview-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/1.1PRE/BIO-PAD-Toolbox-Overview-v1.1.html,40,]
+
+.^|GitHub release package
+^.^|
+^.^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/1.1PRE,40,]
+
+.^|GitHub release package
+^.^|
+^.^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.1PRE,40,]
+
+|===
 
 *_v1.1 Proposed Draft_*
 
