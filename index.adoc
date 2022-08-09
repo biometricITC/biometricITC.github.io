@@ -32,13 +32,13 @@ This is published for a Proposed Update review period while waiting for the publ
 
 The <<Current Documents for Review>> section provides links to the documents under review.
 
-== Current Published Documents
+== Current Proposed Documents
 
 *_Version 1.1 Proposed Update_*
 
 Publication Date:: July 14, 2022
-Sunset Date:: Active
-Retired Date:: Active
+Comment Period:: August 19, 2022
+
 
 The following are the documents are included in Version 1.1 (for toolboxes, check <<v1.1GHTable>>):
 
