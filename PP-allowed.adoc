@@ -1,0 +1,97 @@
+= Allowed Components for the PP-Module for Biometric enrolment and verification
+:showtitle:
+:toc: macro
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: September 12, 2022
+
+:iTC-longame: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: cm-itc-mailing-list@gmail.com
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricitc/cPP-biometrics/
+:pp-name: collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+
+== Introduction
+This page lists the various cPPs and PP-Modules that are approved by the {iTC-shortname} to be used in conjunction with the {pp-name} in PP-Configurations.
+
+== Approved Components
+.Allowed Components
+[%header,cols="1,1,1,1,1,2"]
+|===
+|PP/PP-Module 
+|Version/Date
+|Date Approved
+|Responsible Org
+|Link
+|Description
+
+|Protection Profile for Mobile Device Fundamentals
+|v3.3, September 12, 2022
+|September 12, 2022
+|NIAP
+|https://www.niap-ccevs.org/Profile/PP.cfm
+|Base-PP for Mobile Devices
+
+|PP-Module for Bluetooth
+|v1.0, April 15, 2021
+|September 12, 2022
+|NIAP
+|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=425&id=425
+|Bluetooth module for Mobile Devices
+
+|PP-Module for MDM Agent
+|v1.0, April 25, 2019
+|September 12, 2022
+|NIAP
+|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=441&id=441
+|MDM Agent module for Mobile Devices
+
+|PP-Module for VPN Client
+|v2.4, March 30, 2022
+|September 12, 2022
+|NIAP
+|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=467&id=467
+|IPsec VPN client module
+
+|PP-Module for Wireless Local Area Network (WLAN) Client
+|v1.0, March 31, 2022
+|September 12, 2022
+|NIAP
+|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=463&id=463
+|WLAN (Wi-Fi) client module
+
+|===
+
+=== Justification for Allowed Components
+[GUIDANCE]
+====
+Here you would provide the reasons for the allowed inclusion. This can be as short or as long as the iTC determines is necessary.
+====
+
+==== Milk Frother
+Everyone needs the ability to froth their milk before putting it in their coffee, and doing so does not impact the ability to make coffee as defined in the {pp-name}.
+
+== Archive List of Previously Approved Components
+None at this point
+
+.Archived Components
+[%header,cols="1,1,1,1,1"]
+|===
+|cPP/PP-Module 
+|Version/Date
+|Date Removed
+|Responsible iTC
+|Last cPP compatible version
+
+|
+|
+|
+|
+|
+
+|===
+
+=== Justification for Archived Components
+None at this point
