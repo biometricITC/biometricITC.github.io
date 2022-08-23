@@ -18,10 +18,10 @@ This page lists the various cPPs and PP-Modules that are approved by the {iTC-sh
 
 == Approved Components
 .Allowed Components
-[%header,cols="1,1,1,1,1,2"]
+[%header,cols=".^1,.^1,.^1,.^1,.^1,.^2"]
 |===
 |PP/PP-Module 
-|Version/Date
+|Doc Version/Date
 |Date Approved
 |Responsible Org
 |Link
@@ -65,13 +65,9 @@ This page lists the various cPPs and PP-Modules that are approved by the {iTC-sh
 |===
 
 === Justification for Allowed Components
-[GUIDANCE]
-====
-Here you would provide the reasons for the allowed inclusion. This can be as short or as long as the iTC determines is necessary.
-====
 
-==== Milk Frother
-Everyone needs the ability to froth their milk before putting it in their coffee, and doing so does not impact the ability to make coffee as defined in the {pp-name}.
+==== Protection Profile for Mobile Device Fundamentals
+The functionality provided by the {pp-name} is well matched to mobile devices in constrained environments.
 
 == Archive List of Previously Approved Components
 None at this point
