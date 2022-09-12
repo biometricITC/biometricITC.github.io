@@ -1,7 +1,7 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.7
+:revnumber: 2.7.1
 :revdate: 2022-09-12
 
 == Introduction
@@ -30,11 +30,11 @@ The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This v
 
 The <<Current Documents for Review>> section provides links to the documents under review.
 
-== Current Proposed Documents
+== Current Documents
 
-*_Version 1.1 Proposed Update_*
+*_Version 1.1_*
 
-Publication Date:: Septembe 12, 2022
+Publication Date:: September 12, 2022
 
 The following are the documents are included in Version 1.1 (for toolboxes, check <<v1.1GHTable>>):
 
