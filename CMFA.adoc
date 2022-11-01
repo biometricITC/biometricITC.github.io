@@ -1,0 +1,60 @@
+= Continuous Multi-Factor Authentication Work
+:showtitle:
+:toc: macro
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: October 31, 2022
+
+== Introduction
+From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
+
+https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal BIO-iTC Page]
+
+https://github.com/biometricITC/[Biometrics iTC GitHub organization]
+
+To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
+
+== Current Status
+The BIO-iTC has published v1.0 of the CMFA ESR. In addition an overview document has also been published with more details about the expected focus and types of SFRs that would likely be included in the PP-Module.
+
+This is all still in a proposed work item state with high level discussions about how the PP-Module would look being done but without detailed work on creating the PP-Module and Supporting Document itself.
+
+The goal is to generate interest and support for proceeding with this work as proof-of-concept products are already in market or testing.
+
+== Current Documents
+
+
+.CMFA Documents
+[[DocTable]]
+[cols="5,1,1",options="header"]
+|===
+|Title 
+^.^|Version 
+^.^|Links
+
+.^|CMFA Essential Security Requirements (ESRs)
+^.^|1.0
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./CMFA/CMFA_ESR.pdf,40,]
+
+.^|CMFA Overview
+^.^|1.0
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./CMFA/CMFA_Overview.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./CMFA/CMFA_Overview.html,40,]
+
+|===
+
+.GitHub Public Release Packages
+[[v1.1GHTable]]
+[cols="4,1",options="header"]
+|===
+|Title 
+^|Link
+
+.^|CMFA ESR v1.0 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Administration/releases/tag/CMFAESR-v1.0,40,]
+
+.^|CMFA Overview v1.0 Releae package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-CMFA/releases/CMFAOV-v1.0,40,]
+
+|===
+
