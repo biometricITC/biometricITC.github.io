@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 2.8
-:revdate: 2022-10-31
+:revnumber: 3
+:revdate: 2022-11-21
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -37,13 +37,13 @@ This work is still in the proposal stage, but the ESR and Overview of the focus 
 
 == Current Documents
 
-*_Version 1.1_*
+*_Version 1.1.1_*
 
-Publication Date:: September 12, 2022
+Publication Date:: November 21, 2022
 
-The following are the documents are included in Version 1.1 (for toolboxes, check <<v1.1GHTable>>):
+The following are the documents are included in Version 1.1.1 (for toolboxes, check <<v1.1GHTable>>):
 
-.Public Release v1.1 Documents
+.Public Release v1.1.1 Documents
 [[v1.1DocTable]]
 [cols="5,1,1,1,1",options="header"]
 |===
@@ -68,8 +68,8 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 .^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
 ^.^|1.1
 ^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.html,40,]
-^.^|
-^.^|
+^.^|1.1.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.1.html,40,]
 
 .^|Biometric PAD Toolbox Overview [Toolbox]
 ^.^|1.1
@@ -88,6 +88,9 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 
 .^|PP-Module V1.1 Release package
 ^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1,40,]
+
+.^|Supporting Document V1.1.1 Release package
+^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1.1,40,]
 
 .^|Toolbox Overview V1.1 Release package
 ^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/v1.1,40,]

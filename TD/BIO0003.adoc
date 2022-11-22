@@ -1,0 +1,52 @@
+= BIO0003 - SD Section 2.4.2.4 Incorrect SFR Reference
+:showtitle:
+:imagesdir: ../images
+:icons: font
+:revnumber: 1.0
+:revdate: 2022-11-21
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC/cPP-biometrics
+
+Published: {revdate}
+
+== Impacted Documents
+Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD] v1.1 
+
+image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/SD-BIO-v1.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/SD-BIO-v1.1.pdf,40,]
+
+== References
+Section 2. Evaluation Activities for SFRs
+
+== Issue Description
+In section 2.4.2.4 item "a." should reference FPT_PBT_EXT.1 instead of FPT_BDP_EXT.1.
+
+== Resolution
+=== Supporting Document v1.1
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|2.4.2.4 Required input from the developer or other entities
+|a. TSS shall explain how the TOE meets FPT_BDP_EXT.1 at high level description
+
+|BIO0003 Text
+|2.4.2.4 Required input from the developer or other entities
+|a. TSS shall explain how the TOE meets _FPT_PBT_EXT.1_ at high level description
+
+|===
+
+== Tracking
+* {iTC-GitHub}/issues/399[Original Issue]
+* {iTC-GitHub}/pull/400[Publication Pull Request]
