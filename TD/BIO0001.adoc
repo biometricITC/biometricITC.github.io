@@ -65,5 +65,5 @@ The following rows were changed (changes shown in italics):
 |===
 
 == Tracking
-* {iTC-GitHub}/pulls/40[Original Pull Request]
-* {iTC-GitHub}/pulls/41[Publication Pull Request]
+* {iTC-GitHub}/pull/40[Original Pull Request]
+* {iTC-GitHub}/pull/41[Publication Pull Request]

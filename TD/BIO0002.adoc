@@ -82,5 +82,5 @@ The following rows were changed (changes shown in italics):
 |===
 
 == Tracking
-* {iTC-GitHub}/pulls/295[Original Pull Request]
-* {iTC-GitHub}/pulls/298[Publication Pull Request]
+* {iTC-GitHub}/pull/295[Original Pull Request]
+* {iTC-GitHub}/pull/298[Publication Pull Request]
