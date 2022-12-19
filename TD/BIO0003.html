@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <title>BIO0003 - SD Section 2.4.2.4 Incorrect SFR Reference</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -84,10 +84,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -436,31 +436,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.admonitionblock td.icon .icon-boilerplate:before {content:"\f023";color:#3F903E;}
-</style>
-<style>
-.admonitionblock td.icon .icon-review:before {content:"\f0ea";color:#FDB109;}
-</style>
-<style>
-.admonitionblock td.icon .icon-guidance:before {content:"\f02d";color:#0909FD;}
-</style>
-<style>
-.admonitionblock td.icon .icon-initial:before {content:"\f25a";color:#C50CCB;}
-</style>
-<style>
-.admonitionblock td.icon .icon-USB:before {content:"\f2db";color:#CB0C33;}
-</style>
-<style>
-.admonitionblock td.icon .icon-discussion:before {content:"\f086";color:#F5F008;}
-</style>
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>BIO0003 - SD Section 2.4.2.4 Incorrect SFR Reference</h1>
 <div class="details">
-<span id="revnumber">version 1.0,</span>
-<span id="revdate">2022-11-21</span>
+<span id="revnumber">version 2</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -482,6 +463,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="paragraph">
 <p>Published: 2022-11-21</p>
+</div>
+<div class="paragraph">
+<p>Sunset: Active</p>
 </div>
 </div>
 </div>
@@ -568,8 +552,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0<br>
-Last updated 2022-11-21 20:42:35 -0500
+Version 2<br>
+Last updated 2022-12-19 10:10:43 -0500
 </div>
 </div>
 </body>

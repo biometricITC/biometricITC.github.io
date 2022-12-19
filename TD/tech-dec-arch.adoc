@@ -1,9 +1,9 @@
-= Biometrics Security iTC Technical Decisions
+= Biometrics Security iTC Archived Technical Decisions
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 0.2
-:revdate: 2020-11-10
+:revnumber: 1
+:revdate: 2022-12-19
 :linkattrs:
 
 :iTC-longname: Biometrics Security
@@ -12,42 +12,26 @@
 :iTC-website: https://biometricitc.github.io/
 :iTC-GitHub: https://github.com/biometricITC/cPP-biometrics/
 
-== {iTC-longname} Technical Decisions
-The iTC issues Technical Decisions based on requests for interpretation to clarify and update the cPP and related documents between release cycles. This is the main page for Technical Decisions that have been issued by the iTC. 
+== {iTC-longname} Archived Technical Decisions
+This page is for historical purposes to maintain a list of Technical Decisions that are no longer current. The most common reason for moving TDs to this list is that the version they apply to is no longer current, but it can also be due to later TDs superseding older decisions.
 
-=== Technical Decision Links
-* {iTC-GitHub}issues/new/choose[New Request for Interpretation]
-* link:tech-dec-arch.html[Archived Technical Decisions]
+== Archived Technical Decisions
 
-== Active Technical Decisions
-
-[%header,cols=".^1,.^2,.^1,.^1,.^2,.^2"]
+[%header,cols=".^1,.^2,.^1,.^1,.^1,.^2,.^2"]
 |===
 |ID
 |Title
 |Reference
 |Publication Date
+|Archive Date
 |Impact
 |Included From
-
-|BIO0001
-|link:BIO0001.html[Toolbox Overview editorial fixes,window=\"_blank\"]
-|Section 4 Test Items
-|July 30, 2020
-|Toolbox v1.0 
-
-image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
-image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]
-|Toolbox v1.0.1
-
-image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0.1,40,]
-image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.html,40,]
-image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.pdf,40,]
 
 |BIO0002
 |link:BIO0002.html[Additional Reference for Biometric Quality,window=\"_blank\"]
 |Section 10 Related Documents
 |November 10, 2020
+|September 22, 2022
 |Supporting Document v1.0 
 
 image:iconfinder_HTML_Logo_65687.png[link=/v1.0/SD-BIO-enrl-v1.0.html,40,]
@@ -57,5 +41,20 @@ image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/SD-BIO-enrl-v1.0.pdf,40,]
 image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/SD1.0.1,40,]
 image:iconfinder_HTML_Logo_65687.png[link=/v1.0/SD-BIO-enrl-v1.0.1.html,40,]
 image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/SD-BIO-enrl-v1.0.1.pdf,40,]
+
+|BIO0001
+|link:BIO0001.html[Toolbox Overview editorial fixes,window=\"_blank\"]
+|Section 4 Test Items
+|July 30, 2020
+|September 22, 2022
+|Toolbox v1.0 
+
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.pdf,40,]
+|Toolbox v1.0.1
+
+image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/1.0.1,40,]
+image:iconfinder_HTML_Logo_65687.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.0/BIO-PAD-Toolbox-Overview-v1.0.1.pdf,40,]
 
 |===

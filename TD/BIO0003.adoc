@@ -2,8 +2,9 @@
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 1.0
-:revdate: 2022-11-21
+:revnumber: 2
+:sunsetdate: Active
+:pubdate: 2022-11-21
 :linkattrs:
 
 :iTC-longname: Biometrics Security
@@ -12,7 +13,9 @@
 :iTC-website: https://biometricitc.github.io/
 :iTC-GitHub: https://github.com/biometricITC/cPP-biometrics
 
-Published: {revdate}
+Published: {pubdate}
+
+Sunset: {sunsetdate}
 
 == Impacted Documents
 Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD] v1.1 

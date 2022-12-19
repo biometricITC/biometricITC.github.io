@@ -2,8 +2,9 @@
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 1.0
-:revdate: 2020-07-30
+:revnumber: 2
+:pubdate: 2020-07-30
+:sunsetdate: 2022-09-22
 :linkattrs:
 
 :iTC-longname: Biometrics Security
@@ -12,7 +13,9 @@
 :iTC-website: https://biometricitc.github.io/
 :iTC-GitHub: https://github.com/biometricITC/cPP-toolboxes
 
-Published: {revdate}
+Published: {pubdate}
+
+Sunset: {sunsetdate}
 
 == Impacted Documents
 Toolbox v1.0 
