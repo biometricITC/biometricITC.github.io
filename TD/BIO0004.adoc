@@ -1,0 +1,163 @@
+= BIO0004 - Fingerprint Toolbox Attack Potential Calculations on 03 & 04 attacks
+:showtitle:
+:imagesdir: ../images
+:icons: font
+:revnumber: 1
+:sunsetdate: Active
+:pubdate: 2023-10-31
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC
+
+Published: {pubdate}
+
+Sunset: {sunsetdate}
+
+== Impacted Documents
+Fingerprint Toolbox Overview v4
+
+Attack Fingerprint 03-xx v4
+
+Attack Fingerprint 04-xx v4
+
+image:GitHub-Mark-64px.png[link={iTC-GitHub}/Fingerprint-Toolbox/releases/tag/v4,40,]
+
+== References
+Fingerprint Toolbox Overview, Section 2.2, Curved Attacks
+
+Attack Fingerprint 03-xx, Attack Potential Rating Suggestion
+
+Attack Fingerprint 04-xx, Attack Potential Rating Suggestion
+
+== Issue Description
+The PP-Module Supporting Document currently specifies that presentation attacks, when added as requirements for an evaluation, are to cover attacks rated as meeting Basic attack potential (section 7.3.1.1). All attacks have an Attack Potential Rating Suggestion section which defines how the attack is rated to meet (or not) this rating.
+
+The curved fingerprint attacks specified in the Fingerprint Toolbox Overview were listed as non-cooperative for the Window of Opportunity, and based on that given an attack potential calculation of 8 (meeting Basic). The instructions for the attack though, require a cooperative capture of the fingerprint in the molding material. As defined in Supporting Document, this increases the attack potential for the Window of Opportunity from 2 to 4. This increases the attack potential calculation to 10, which places these attacks out of scope for Basic.
+
+Based on consultation with other organizations performing similar presentation attack testing, cooperative testing attacks are considered out of scope for Basic attacks. In those systems, cooperative attacks are rated with higher values than 4, placing them well outside the scope of equivalent testing systems for Basic attack potential.
+
+=== Note on keeping these attacks listed
+The BIO-iTC regularly reviews the landscape for biometrics, including threats. As such, these attacks will be left as part of the possible set of attacks (and can be used as a basis for ATE_IND input) that may become relevant.
+
+== Resolution
+=== Fingerprint Toolbox Overview v5
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|2.2 Curved Attacks
+|-none-
+
+|BIO0004 Text
+|_2.2.1 Attack Potential Update_ (all 2.2.x sections were increased by 1)
+|_As of October 17, 2023 it was determined that curved attacks have an attack potential higher than Basic, and so are out of scope of the current set of requirements. See https://biometricitc.github.io/TD/BIO0004.html[Technical Decision BIO0004] for more details._
+
+|===
+
+=== Attack Fingerprint 03-xx v5
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|Attack Potential Rating Suggestion
+a|[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options=noheader]
+!===
+!Window of Opportunity
+
+(Access to Biometric Characteristics)
+
+!N/A
+!
+!Non-cooperative
+!2
+!2
+
+6.+^.^!Calculated Total Attack Potential = 8 < Basic Attack Potential
+
+!===
+
+|BIO0004 Text
+|Attack Potential Rating Suggestion
+a|[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options=noheader]
+!===
+!Window of Opportunity
+
+(Access to Biometric Characteristics)
+
+!N/A
+!
+!_Cooperative_
+!_4_
+!_4_
+
+6.+^.^!Calculated Total Attack Potential = _10 >_ Basic Attack Potential
+
+!===
+|===
+
+=== Attack Fingerprint 04-xx v5
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|Attack Potential Rating Suggestion
+a|[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options=noheader]
+!===
+!Window of Opportunity
+
+(Access to Biometric Characteristics)
+
+!N/A
+!
+!Non-cooperative
+!2
+!2
+
+6.+^.^!Calculated Total Attack Potential = 8 < Basic Attack Potential
+
+!===
+
+|BIO0004 Text
+|Attack Potential Rating Suggestion
+a|[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options=noheader]
+!===
+!Window of Opportunity
+
+(Access to Biometric Characteristics)
+
+!N/A
+!
+!_Cooperative_
+!_4_
+!_4_
+
+6.+^.^!Calculated Total Attack Potential = _10 >_ Basic Attack Potential
+
+!===
+|===
+
+== Tracking
+* {iTC-GitHub}/cPP-biometrics/issues/417[Original Issue]
+* {iTC-GitHub}/Fingerprint-Toolbox/pull/86[Publication Pull Request]
