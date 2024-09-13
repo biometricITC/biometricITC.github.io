@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 5
-:revdate: 2024-05-21
+:revnumber: 6
+:revdate: 2024-09-13
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -11,7 +11,7 @@ https://www.commoncriteriaportal.org/communities/Bio.cfm[Common Criteria Portal 
 
 https://github.com/biometricITC/[Biometrics iTC GitHub organization]
 
-To join the BIO-iTC, please send a message to: isec-itc-bio-info@ipa.go.jp
+To join the BIO-iTC, please send a message to: px-isec-itc-bio-info@ipa.go.jp
 
 == Current Status
 The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This version is matched with the final release of Mobile Device Fundamentals PP v3.3. This release has several udpates based on feedback from lab review of the Supporting Document, PP-Configuration and Toolbox.
