@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 6
-:revdate: 2024-09-13
+:revnumber: 7
+:revdate: 2024-10-16
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -37,75 +37,107 @@ This work is still in the proposal stage, but the ESR and Overview of the focus 
 
 == Current Documents
 
-*_Version 1.1.1_*
+=== PP-Module and Supporting Documentation
 
-Publication Date:: November 21, 2022
+Latest Publication Date:: October 15, 2024
 
-The following are the documents are included in Version 1.1.1 (for toolboxes, check <<v1.1GHTable>>):
+The following are the documents are included in Version 1.1 (for toolboxes, check <<Toolboxes>>):
 
 .Public Release v1.1.1 Documents
 [[v1.1DocTable]]
-[cols="5,1,1,1,1",options="header"]
+[cols=".^4,^.^1,^.^1,^.^1,^.^1,^.^1,^.^1",options="header"]
 |===
 |Title 
-^.^|Version 
-^.^|Links
-^.^|Latest TD Version
-^.^|Links
+|Version 
+|Date
+|Links
+|Latest TD Version
+|Date
+|Links
 
-.^|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
-^.^|1.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/MOD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/MOD-BIO-v1.1.html,40,]
-^.^|
-^.^|
+|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+|1.1
+|Oct 4, 2022
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/MOD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/MOD-BIO-v1.1.html,40,]
+|
+|
+|
 
-.^|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
-^.^|1.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.html,40,]
-^.^|
-^.^|
+|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
+|1.1
+|Oct 4, 2022
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.html,40,]
+|
+|
+|
 
-.^|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
-^.^|1.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.html,40,]
-^.^|1.1.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.1.html,40,]
+|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
+|1.1
+|Oct 4, 2022
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.html,40,]
+|1.1.1
+|Nov 21, 2022
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.1.html,40,]
 
-.^|Biometric PAD Toolbox Overview [Toolbox]
-^.^|1.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/BIO-PAD-Toolbox-Overview-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/BIO-PAD-Toolbox-Overview-v1.1.html,40,]
-^.^|
-^.^|
+|Biometric PAD Toolbox Overview [Toolbox]
+|1.2
+|Oct 15, 2024
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/BIO-PAD-Toolbox-Overview-v1.2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/BIO-PAD-Toolbox-Overview-v1.2.html,40,]
+|
+|
+|
 
 |===
 
 .GitHub Public Release Packages
 [[v1.1GHTable]]
-[cols="4,1",options="header"]
+[cols=".^4,^1,^1",options="header"]
 |===
 |Title 
-^|Link
+|Date
+|Link
 
-.^|PP-Module V1.1 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1,40,]
+|PP-Module V1.1 Release package
+|Oct 4, 2022
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1,40,]
 
-.^|Supporting Document V1.1.1 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1.1,40,]
+|Supporting Document V1.1.1 Release package
+|Nov 21, 2022
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1.1,40,]
 
-.^|Toolbox Overview V1.1 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/v1.1,40,]
+|Toolbox Overview V1.2 Release package
+|Oct 15, 2024
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-toolboxes/releases/tag/v1.2,40,]
 
-.^|Eye Toolbox V3 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Eye-Toolbox/releases/tag/v3,40,]
+|===
 
-.^|Face Toolbox V4 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Face-Toolbox/releases/tag/v4,40,]
+=== Presentation Attack Detection Toolboxes
 
-.^|Fingerprint Toolbox V5 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox/releases/tag/v5,40,]
+To request access to any toolboxes supporting PAD above Level 1, submit a https://github.com/biometricITC/cPP-toolboxes/issues/new/choose[PAD L2+ Request].
 
-.^|Vein Toolbox V3 Release package
-^|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Vein-Toolbox/releases/tag/v3,40,]
+.Toolbox Release Packages
+[[Toolboxes]]
+[cols=".^4,^1,^1",options="header"]
+|===
+|Title 
+|Date
+|Link
+
+|Eye Toolbox V3 Release package
+|Aug 18, 2022
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Eye-Toolbox/releases/tag/v3,40,]
+
+|Face Toolbox V4 Release package
+|Sept 12, 2022
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Face-Toolbox/releases/tag/v4,40,]
+
+|Fingerprint Toolbox V6 Release package
+|Oct 1, 2024
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Fingerprint-Toolbox/releases/tag/v6,40,]
+
+|Vein Toolbox V3 Release package
+|Aug 18, 2022
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/Vein-Toolbox/releases/tag/v3,40,]
 
 |===
 
