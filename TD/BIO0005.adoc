@@ -20,14 +20,14 @@ Sunset: {sunsetdate}
 == Impacted Documents
 collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module] v1.1 
 
-image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/SD-BIO-v1.1.html,40,]
-image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/SD-BIO-v1.1.pdf,40,]
+image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/MOD-BIO-v1.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/MOD-BIO-v1.1.pdf,40,]
 
 == References
 8.4.1.5 Management of the Biometric System configuration
 
 == Issue Description
-The reference to the PP_MDF_V3.3 for management of the biometric system is FMT_SMF_EXT.1, while the PP actually uses FMT_SMF.1. Additionally the enabling/disabling of the BAF is incorrectly referencesd as Management Function 23, and the correct reference is 22.
+The reference to the PP_MDF_V3.3 for management of the biometric system is FMT_SMF_EXT.1, while the PP actually uses FMT_SMF.1. Additionally the enabling/disabling of the BAF is incorrectly referenced as Management Function 23, and the correct reference is 22.
 
 == Resolution
 === Supporting Document v1.1
