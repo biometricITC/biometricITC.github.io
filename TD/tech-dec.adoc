@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 5
-:revdate: 2023-10-31
+:revnumber: 6
+:revdate: November 12, 2024
 :linkattrs:
 
 :iTC-longname: Biometrics Security
@@ -40,31 +40,22 @@ image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/SD-BIO-v1.1.html,40,]
 image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/SD-BIO-v1.1.pdf,40,]
 |Supporting Document v1.1.1
 
-image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/SD1.1.1,40,]
+image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM1.1.1,40,]
 image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/SD-BIO-v1.1.1.html,40,]
 image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/SD-BIO-v1.1.1.pdf,40,]
 
-|BIO0004
-|link:BIO0004.html[Fingerprint Toolbox Attack Potential Calculations on 03 & 04 attacks,window=\"_blank\"]
-|Fingerprint Toolbox Overview, Section 2.2, Curved Attacks
+|BIO0005
+|link:BIO0005.html[PP-Module Update for PP_MDF_V3.3 References of Biometric System Configuration,window=\"_blank\"]
+|Section 8.4.1.5 Management of the Biometric System configuration
+|November 12, 2024
+|PP-Module v1.1 
 
-Attack Fingerprint 03-xx, Attack Potential Rating Suggestion
+image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/MOD-BIO-v1.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/MOD-BIO-v1.1.pdf,40,]
+|PP-Module v1.1.1
 
-Attack Fingerprint 04-xx, Attack Potential Rating Suggestion
-|October 31, 2023
-|Fingerprint Toolbox Overview v4
-
-Attack Fingerprint 03-xx v4
-
-Attack Fingerprint 04-xx v4
-
-image:GitHub-Mark-64px.png[link={iTC-GitHub}/Fingerprint-Toolbox/releases/tag/v4,40,]
-|Fingerprint Toolbox Overview v4
-
-Attack Fingerprint 03-xx v4
-
-Attack Fingerprint 04-xx v4
-
-image:GitHub-Mark-64px.png[link={iTC-GitHub}/Fingerprint-Toolbox/releases/tag/v5,40,]
+image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM1.1.1,40,]
+image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/MOD-BIO-v1.1.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/MOD-BIO-v1.1.1.pdf,40,]
 
 |===

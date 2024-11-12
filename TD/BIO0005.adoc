@@ -1,0 +1,55 @@
+= BIO0005 - Update for PP_MDF_V3.3 References for Biometric System Configuration
+:showtitle:
+:imagesdir: ../images
+:icons: font
+:revnumber: 1
+:sunsetdate: Active
+:pubdate: November 12, 2024
+:linkattrs:
+
+:iTC-longname: Biometrics Security
+:iTC-shortname: BIO-iTC
+:iTC-email: isec-itc-bio@ipa.go.jp
+:iTC-website: https://biometricitc.github.io/
+:iTC-GitHub: https://github.com/biometricITC/cPP-biometrics
+
+Published: {pubdate}
+
+Sunset: {sunsetdate}
+
+== Impacted Documents
+collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module] v1.1 
+
+image:iconfinder_HTML_Logo_65687.png[link=/v1.1/release/SD-BIO-v1.1.html,40,]
+image:Crystal_Clear_mimetype_pdf.png[link=/v1.1/release/SD-BIO-v1.1.pdf,40,]
+
+== References
+8.4.1.5 Management of the Biometric System configuration
+
+== Issue Description
+The reference to the PP_MDF_V3.3 for management of the biometric system is FMT_SMF_EXT.1, while the PP actually uses FMT_SMF.1. Additionally the enabling/disabling of the BAF is incorrectly referencesd as Management Function 23, and the correct reference is 22.
+
+== Resolution
+=== Supporting Document v1.1
+The following rows were changed (changes shown in italics):
+
+[cols=".^1h,.^1,.^2",options="header"]
+|===
+
+|
+|Sub-section name
+|Description
+
+|Original Text
+|8.4.1.5 Management of the Biometric System configuration
+|The mobile device shall enable/disable the BAF as required by FMT_SMF_EXT.1 (Management function 23), and revoke the BAF as FMT_SMF_EXT.1 (Management Function 46). Any change to the BAF (e.g. adding or revoking templates) requires re-authentication via the Password Authentication Factor as required by FIA_UAU.6.2.
+
+|BIO0005 Text
+|8.4.1.5 Management of the Biometric System configuration
+|The mobile device shall enable/disable the BAF as required by _FMT_SMF.1_ (Management function _22_), and revoke the BAF as _FMT_SMF.1_ (Management Function 46). Any change to the BAF (e.g. adding or revoking templates) requires re-authentication via the Password Authentication Factor as required by FIA_UAU.6.2.
+
+|===
+
+== Tracking
+* {iTC-GitHub}/issues/422[Original Issue]
+* {iTC-GitHub}/pull/423[Publication Pull Request]
