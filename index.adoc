@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 8
-:revdate: 2024-10-24
+:revnumber: 9
+:revdate: 2024-11-12
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -57,15 +57,15 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 
 |collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
 |1.1
-|Oct 4, 2022
+|Sept 12, 2022
 |image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/MOD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/MOD-BIO-v1.1.html,40,]
-|
-|
-|
+|1.1.1
+|Nov 12, 2024
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/MOD-BIO-v1.1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/MOD-BIO-v1.1.1.html,40,]
 
 |PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
 |1.1
-|Oct 4, 2022
+|Sept 12, 2022
 |image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/CFG-MDF-BIO-v1.1.html,40,]
 |
 |
@@ -73,7 +73,7 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 
 |Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
 |1.1
-|Oct 4, 2022
+|Sept 12, 2022
 |image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.html,40,]
 |1.1.1
 |Nov 21, 2022
@@ -97,13 +97,13 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 |Date
 |Link
 
-|PP-Module V1.1 Release package
-|Oct 4, 2022
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1,40,]
+|PP-Module V1.1.1 Release package
+|Nov 12, 2024
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM1.1.1,40,]
 
 |Supporting Document V1.1.1 Release package
-|Nov 21, 2022
-|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/v1.1.1,40,]
+|Nov 12, 2024 (with current PP-Module)
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM1.1.1,40,]
 
 |Toolbox Overview V1.2 Release package
 |Oct 15, 2024
