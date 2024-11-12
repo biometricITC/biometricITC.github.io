@@ -14,7 +14,7 @@ https://github.com/biometricITC/[Biometrics iTC GitHub organization]
 To join the BIO-iTC, please send a message to: px-isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This version is matched with the final release of Mobile Device Fundamentals PP v3.3. This release has several udpates based on feedback from lab review of the Supporting Document, PP-Configuration and Toolbox.
+The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This version is matched with the final release of Mobile Device Fundamentals PP v3.3. This release has several updates based on feedback from lab review of the Supporting Document, PP-Configuration and Toolbox.
 
 [ditaa, PR_Timeline, png]
 ....

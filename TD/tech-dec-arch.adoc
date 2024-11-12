@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 1
-:revdate: 2022-12-19
+:revnumber: 2
+:revdate: November 12, 2024
 :linkattrs:
 
 :iTC-longname: Biometrics Security
@@ -26,6 +26,31 @@ This page is for historical purposes to maintain a list of Technical Decisions t
 |Archive Date
 |Impact
 |Included From
+
+|BIO0004
+|link:BIO0004.html[Fingerprint Toolbox Attack Potential Calculations on 03 & 04 attacks,window=\"_blank\"]
+|Fingerprint Toolbox Overview, Section 2.2, Curved Attacks
+
+Attack Fingerprint 03-xx, Attack Potential Rating Suggestion
+
+Attack Fingerprint 04-xx, Attack Potential Rating Suggestion
+|October 31, 2023
+|November 12, 2024
+|Fingerprint Toolbox Overview v4
+
+Attack Fingerprint 03-xx v4
+
+Attack Fingerprint 04-xx v4
+
+image:GitHub-Mark-64px.png[link={iTC-GitHub}/Fingerprint-Toolbox/releases/tag/v4,40,]
+|Fingerprint Toolbox Overview v4
+
+Attack Fingerprint 03-xx v4
+
+Attack Fingerprint 04-xx v4
+
+image:GitHub-Mark-64px.png[link={iTC-GitHub}/Fingerprint-Toolbox/releases/tag/v5,40,]
+
 
 |BIO0002
 |link:BIO0002.html[Additional Reference for Biometric Quality,window=\"_blank\"]

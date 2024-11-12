@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: ../images
 :icons: font
-:revnumber: 1
-:sunsetdate: Active
+:revnumber: 2
+:sunsetdate: 2024-11-12
 :pubdate: 2023-10-31
 :linkattrs:
 
