@@ -85,8 +85,8 @@ For historical purposes, these are the documents from the previous Public Review
 Publication Date:: October 6, 2021
 End of Comment Period:: November 5, 2021
 
-.Proposed Draft Documents
-[[11PDDocTable]]
+.Proposed Draft v1.1 Documents
+[[v11PDDocTable]]
 [cols="5,1,1",options="header"]
 |===
 |Title ^|Version ^|Links
@@ -143,7 +143,7 @@ Publication Date:: July 1, 2021
 End of Comment Period:: August 15, 2021
 
 .Public Review 1 Documents
-[[11Rev1DocTable]]
+[[v11Rev1DocTable]]
 [cols="5,1,1",options="header"]
 |===
 |Title ^|Version ^|Links
