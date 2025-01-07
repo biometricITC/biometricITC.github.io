@@ -8,6 +8,32 @@
 
 For historical purposes, these are the documents from the previous Public Review periods. These are listed with the most recent reviews at the top.
 
+*_v1.2 Proposed Draft_*
+
+Publication Date:: November 26, 2024
+End of Comment Period:: January 5, 2025
+
+.Proposed Draft v1.2 Documents
+[[v12PDDocTable]]
+[cols=".^5,^.^1,^.^1",options="header"]
+|===
+|Title |Version |Links
+
+|Proposed Draft Overview
+|
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/BIO-v1.2-Proposed_Draft_Overview.pdf,40,]
+
+|collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
+|1.2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/MOD-BIO-enrl-v1.2-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/Proposed-Draft/MOD-BIO-enrl-v1.2-PD.html,40,]
+
+
+|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
+|1.2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/SD-BIO-enrl-v1.2-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/Proposed-Draft/SD-BIO-enrl-v1.2-PD.html,40,]
+
+|===
+
 *_v1.1PRE2 Proposed Update_*
 
 .Public Release v1.1PRE2 Documents

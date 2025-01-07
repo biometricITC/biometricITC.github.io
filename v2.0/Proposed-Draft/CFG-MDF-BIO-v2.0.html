@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
-<title>Allowed Components for the PP-Module for Biometric enrolment and verification</title>
+<title>PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -433,168 +433,321 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article toc2 toc-left">
+<body class="book toc2 toc-left">
 <div id="header">
-<h1>Allowed Components for the PP-Module for Biometric enrolment and verification</h1>
+<h1>PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]</h1>
 <div class="details">
-<span id="revnumber">version 2,</span>
-<span id="revdate">January 6, 2024</span>
+<span id="revnumber">version 1.2,</span>
+<span id="revdate">TBD</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_introduction">Introduction</a></li>
-<li><a href="#_approved_components">Approved Components</a>
+<li><a href="#_acknowledgements">Acknowledgements</a></li>
+<li><a href="#_introduction">1. Introduction</a></li>
+<li><a href="#_pp_configuration_reference">2. PP-Configuration Reference</a></li>
+<li><a href="#_pp_configuration_components_statement">3. PP-Configuration Components Statement</a></li>
+<li><a href="#_conformance_claim_and_conformance_statement">4. Conformance claim and conformance statement</a>
 <ul class="sectlevel2">
-<li><a href="#_justification_for_allowed_components">Justification for Allowed Components</a></li>
+<li><a href="#_common_criteria_conformance_claim">4.1. Common Criteria Conformance claim</a></li>
+<li><a href="#_the_conformance_type">4.2. The conformance type</a></li>
+<li><a href="#_the_assurance_package_conformance_claim">4.3. The Assurance package conformance claim</a></li>
+<li><a href="#_presentation_attack_detection_pad_conformance">4.4. Presentation Attack Detection (PAD) conformance</a></li>
 </ul>
 </li>
-<li><a href="#_archive_list_of_previously_approved_components">Archive List of Previously Approved Components</a>
-<ul class="sectlevel2">
-<li><a href="#_justification_for_archived_components">Justification for Archived Components</a></li>
-</ul>
-</li>
+<li><a href="#_related_documents">5. Related Documents</a></li>
+<li><a href="#_revision_history">6. Revision History</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_introduction">Introduction</h2>
+<h2 id="_acknowledgements">Acknowledgements</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This page lists the various cPPs and PP-Modules that are approved by the BIO-iTC to be used in conjunction with the collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module] in PP-Configurations.</p>
+<p>This PP-Configuration was developed by the Biometrics Security international Technical Community (BIO-iTC) with representatives from industry, Government agencies, Common Criteria Test Laboratories, and members of academia.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_approved_components">Approved Components</h2>
+<h2 id="_introduction">1. Introduction</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p>The purpose of a PP-Configuration is to define a Target of Evaluation (TOE) that combines Protection Profiles (PPs) and PP-Modules for various technology types into a single configuration that can be evaluated as a whole. The scope includes the definition of the configuration of a mobile device (a computer in the terms of the PP-Module) that has biometric enrolment and verification capability. The TOE will be defined by a combination of the components described in <a href="#_pp_configuration_components_statement">Chapter 3, <em>PP-Configuration Components Statement</em></a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_pp_configuration_reference">2. PP-Configuration Reference</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This PP-Configuration is identified as follows:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - <a href="#CFG-MDF-BIO">[CFG-MDF-BIO]</a>, September 12, 2022, Version 1.2</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_pp_configuration_components_statement">3. PP-Configuration Components Statement</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This PP-Configuration includes the following components:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Base-PP: Protection Profile for Mobile Device Fundamentals, September 12, 2022, Version 3.3. <a href="#PP_MDF">[PP_MDF]</a></p>
+</li>
+<li>
+<p>PP-Module: collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module], September 12, 2022, Version 1.2</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_conformance_claim_and_conformance_statement">4. Conformance claim and conformance statement</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_common_criteria_conformance_claim">4.1. Common Criteria Conformance claim</h3>
+<div class="paragraph">
+<p>This PP-Configuration, <a href="#PP_MDF">[PP_MDF]</a> and <a href="#MOD_BIO_V1.2">[MOD_BIO_V1.2]</a> are conformant to Common Criteria CC:2022, Release 1 and the Errata and Interpretation, Version 1.1.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_conformance_type">4.2. The conformance type</h3>
+<div class="paragraph">
+<p>To be conformant to this PP-Configuration, an ST must demonstrate Exact Conformance, as defined by <a href="#addenda">[addenda]</a>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_assurance_package_conformance_claim">4.3. The Assurance package conformance claim</h3>
+<div class="paragraph">
+<p>In order to evaluate a TOE that claims conformance to this PP-Configuration, the evaluator shall evaluate the TOE against the following SARs that are defined in the <a href="#PP_MDF">[PP_MDF]</a>:</p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. Allowed Components</caption>
+<caption class="title">Table 1. Assurance Components</caption>
 <colgroup>
-<col style="width: 14.2857%;">
-<col style="width: 14.2857%;">
-<col style="width: 14.2857%;">
-<col style="width: 14.2857%;">
-<col style="width: 14.2857%;">
-<col style="width: 28.5715%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-middle">PP/PP-Module</th>
-<th class="tableblock halign-left valign-middle">Doc Version/Date</th>
-<th class="tableblock halign-left valign-middle">Date Approved</th>
-<th class="tableblock halign-left valign-middle">Responsible Org</th>
-<th class="tableblock halign-left valign-middle">Link</th>
-<th class="tableblock halign-left valign-middle">Description</th>
+<th class="tableblock halign-left valign-top">Assurance Class</th>
+<th class="tableblock halign-left valign-top">Assurance Components</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Protection Profile for Mobile Device Fundamentals</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">v3.3, September 12, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">September 12, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="https://www.niap-ccevs.org/protectionprofiles/468" class="bare">https://www.niap-ccevs.org/protectionprofiles/468</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Base-PP for Mobile Devices</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="7"><p class="tableblock">Security Target (ASE)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conformance Claims (ASE_CCL.1)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">PP-Module for Bluetooth</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">v1.0, April 15, 2021</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">September 12, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="https://www.niap-ccevs.org/protectionprofiles/425" class="bare">https://www.niap-ccevs.org/protectionprofiles/425</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Bluetooth module for Mobile Devices</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Extended Components Definition (ASE_ECD.1)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">PP-Module for MDM Agent</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">v1.0, April 25, 2019</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">September 12, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="https://www.niap-ccevs.org/protectionprofiles/441" class="bare">https://www.niap-ccevs.org/protectionprofiles/441</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">MDM Agent module for Mobile Devices</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ST Introduction (ASE_INT.1)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">PP-Module for VPN Client</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">v2.5, December 28, 2024</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">December 28, 2024</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="https://www.niap-ccevs.org/protectionprofiles/487" class="bare">https://www.niap-ccevs.org/protectionprofiles/487</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">IPsec VPN client module</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Security Objectives for the Operational Environment (ASE_OBJ.1)</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">PP-Module for Wireless Local Area Network (WLAN) Client</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">v1.0, March 31, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">September 12, 2022</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="https://www.niap-ccevs.org/protectionprofiles/463" class="bare">https://www.niap-ccevs.org/protectionprofiles/463</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">WLAN (Wi-Fi) client module</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Stated Security Requirements (ASE_REQ.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Security Problem Definition (ASE_SPD.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE Summary Specification (ASE_TSS.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Development (ADV)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Basic Functional Specification (ADV_FSP.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">Guidance Documents (AGD)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Operational User Guidance (AGD_OPE.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparative Procedures (AGD_PRE.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle" rowspan="3"><p class="tableblock">Life Cycle Support (ALC)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Labeling of the TOE (ALC_CMC.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOE CM Coverage (ALC_CMS.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Timely Security Updates (ALC_TSU_EXT.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tests (ATE)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Independent testing - conformance (ATE_IND.1)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vulnerability Assessment (AVA)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vulnerability Survey (AVA_VAN.1)</p></td>
 </tr>
 </tbody>
 </table>
-<div class="sect2">
-<h3 id="_justification_for_allowed_components">Justification for Allowed Components</h3>
-<div class="sect3">
-<h4 id="_protection_profile_for_mobile_device_fundamentals">Protection Profile for Mobile Device Fundamentals</h4>
 <div class="paragraph">
-<p>The functionality provided by the collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module] is well matched to mobile devices in constrained environments.</p>
+<p>Note that to fully evaluate the TOE, these SARs shall be applied to the entire TSF and not just the portions described by <a href="#PP_MDF">[PP_MDF]</a> where the SARs are defined.</p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_presentation_attack_detection_pad_conformance">4.4. Presentation Attack Detection (PAD) conformance</h3>
+<div class="paragraph">
+<p>In order to evaluate a TOE that claims conformance to the Presentation Attack Detection (PAD) requirements, the evaluator shall evaluate the TOE using the tests defined in the <a href="#Toolbox">[Toolbox]</a>. PAD conformance is not mandatory for a TOE under evaluation.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_archive_list_of_previously_approved_components">Archive List of Previously Approved Components</h2>
+<h2 id="_related_documents">5. Related Documents</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>None at this point</p>
+<p><strong>Common Criteria</strong><sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 2. Archived Components</caption>
 <colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC1">[CC1]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Criteria for Information Technology Security Evaluation, Part 1: Introduction and General Model, CCMB-2022-11-001, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC2">[CC2]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Criteria for Information Technology Security Evaluation, Part 2: Security Functional Components, CCMB-2022-11-002, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC3">[CC3]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Criteria for Information Technology Security Evaluation, Part 3: Security Assurance Components, CCMB-2022-11-003, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC4">[CC4]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Criteria for Information Technology Security Evaluation, Part 4: Framework for the specification of evaluation methods and activities, CCMB-2022-11-004, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC5">[CC5]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Criteria for Information Technology Security Evaluation, Part 5: Pre-defined packages of security requirements, CCMB-2022-11-005, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CEM">[CEM]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Common Methodology for Information Technology Security Evaluation, CCMB-2022-11-006, CC:2022 Revision 1, November 2022.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="CC-E&amp;I">[CC-E&amp;I]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Errata and Interpretation for CC:2022 (Release 1) and CEM:2022 (Release 1), 002, Version 1.1, July 22, 2024.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>Protection Profiles</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="PP_MDF">[PP_MDF]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Protection Profile for Mobile Device Fundamentals, September 12, 2022, Version 3.3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="MOD_BIO_V1" class="2">[MOD_BIO_V1.2]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module], September 12, 2022, Version 1.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="BIOSD">[BIOSD]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD], September 12, 2022, Version 1.1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span id="Toolbox">[Toolbox]</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Toolbox Overview, September 12, 2022, Version 1.1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_revision_history">6. Revision History</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Revision history</caption>
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 33.3333%;">
+<col style="width: 50.0001%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">cPP/PP-Module</th>
-<th class="tableblock halign-left valign-top">Version/Date</th>
-<th class="tableblock halign-left valign-top">Date Removed</th>
-<th class="tableblock halign-left valign-top">Responsible iTC</th>
-<th class="tableblock halign-left valign-top">Last cPP compatible version</th>
+<th class="tableblock halign-left valign-middle">Version</th>
+<th class="tableblock halign-left valign-middle">Date</th>
+<th class="tableblock halign-left valign-top">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">PP-Module for VPN Client</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">v2.4, March 30, 2022</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">December 28, 2024</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NIAP</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">v1.1</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.8</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">31 Jan, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">First draft for review</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.9</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">August 5, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Update from Public Review Draft 1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.91</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">December 5, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Update to make PAD optional</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.92</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">December 20, 2019</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Public Review Draft 2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.95</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">March 13, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Proposed Release</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">0.99</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">May 11, 2020</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Public Release (requires PP_MDF_V3.3 release to move to v1.0)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">1.1</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">September 12, 2022</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Version 1.1</p></td>
 </tr>
 </tbody>
 </table>
-<div class="sect2">
-<h3 id="_justification_for_archived_components">Justification for Archived Components</h3>
-<div class="paragraph">
-<p><strong>PP-Module for VPN Client v2.4</strong></p>
-</div>
-<div class="paragraph">
-<p>This PP-Module has been sunset by NIAP and replaced with v2.5.</p>
 </div>
 </div>
 </div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. For details see <a href="http://www.commoncriteriaportal.org/" class="bare">http://www.commoncriteriaportal.org/</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2<br>
-Last updated 2025-01-06 09:34:52 -0500
+Version 1.2<br>
+Last updated 2025-01-06 09:03:22 -0500
 </div>
 </div>
 </body>

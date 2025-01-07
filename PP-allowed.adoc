@@ -3,8 +3,8 @@
 :toc: macro
 :imagesdir: images
 :icons: font
-:revnumber: 1
-:revdate: September 12, 2022
+:revnumber: 2
+:revdate: January 6, 2024
 
 :iTC-longame: Biometrics Security
 :iTC-shortname: BIO-iTC
@@ -31,35 +31,35 @@ This page lists the various cPPs and PP-Modules that are approved by the {iTC-sh
 |v3.3, September 12, 2022
 |September 12, 2022
 |NIAP
-|https://www.niap-ccevs.org/Profile/PP.cfm
+|https://www.niap-ccevs.org/protectionprofiles/468
 |Base-PP for Mobile Devices
 
 |PP-Module for Bluetooth
 |v1.0, April 15, 2021
 |September 12, 2022
 |NIAP
-|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=425&id=425
+|https://www.niap-ccevs.org/protectionprofiles/425
 |Bluetooth module for Mobile Devices
 
 |PP-Module for MDM Agent
 |v1.0, April 25, 2019
 |September 12, 2022
 |NIAP
-|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=441&id=441
+|https://www.niap-ccevs.org/protectionprofiles/441
 |MDM Agent module for Mobile Devices
 
 |PP-Module for VPN Client
-|v2.4, March 30, 2022
-|September 12, 2022
+|v2.5, December 28, 2024
+|December 28, 2024
 |NIAP
-|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=467&id=467
+|https://www.niap-ccevs.org/protectionprofiles/487
 |IPsec VPN client module
 
 |PP-Module for Wireless Local Area Network (WLAN) Client
 |v1.0, March 31, 2022
 |September 12, 2022
 |NIAP
-|https://www.niap-ccevs.org/Profile/Info.cfm?PPID=463&id=463
+|https://www.niap-ccevs.org/protectionprofiles/463
 |WLAN (Wi-Fi) client module
 
 |===
@@ -81,13 +81,16 @@ None at this point
 |Responsible iTC
 |Last cPP compatible version
 
-|
-|
-|
-|
-|
+|PP-Module for VPN Client
+|v2.4, March 30, 2022
+|December 28, 2024
+|NIAP
+|v1.1
+
 
 |===
 
 === Justification for Archived Components
-None at this point
+*PP-Module for VPN Client v2.4*
+
+This PP-Module has been sunset by NIAP and replaced with v2.5.

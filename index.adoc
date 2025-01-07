@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 10
-:revdate: 2024-11-26
+:revnumber: 12
+:revdate: 2025-01-07
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -20,7 +20,7 @@ The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This v
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |          |   |          |   | Public   |   |   cYEL   |   |          |   |          |
+    |  cYEL    |   |          |   | Public   |   |          |   |          |   |          |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
@@ -30,7 +30,7 @@ The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This v
 
 The <<Current Documents for Review>> section provides links to the documents under review.
 
-The BIO-iTC has published a Proposed Draft v1.2 of the PP-Module and Supporting Document. This update incorporates changes being made to the PAD Toolboxes to support additional attack levels
+The BIO-iTC has published a Proposed Draft v1.2 of the PP-Module and Supporting Document. This update incorporates changes being made to the PAD Toolboxes to support additional attack levels. The update is now undergoing another internal review to incorporate CC:2022 changes.
 
 == Current Documents
 
@@ -171,29 +171,33 @@ The following are the documents are intended to support Public Reviews:
 
 == Current Documents for Review
 
-*_v1.1 Proposed Draft_*
+*_v2.0 Proposed Draft_*
 
-Publication Date:: November 26, 2024
-End of Comment Period:: January 5, 2025
+Publication Date:: January 7, 2025
+End of Comment Period:: February 7, 2025
 
-.Proposed Draft v1.2 Documents
-[[v12PDDocTable]]
+.Proposed Draft v2.0 Documents
+[[v20PDDocTable]]
 [cols=".^5,^.^1,^.^1",options="header"]
 |===
 |Title |Version |Links
 
 |Proposed Draft Overview
 |
-|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/BIO-v1.2-Proposed_Draft_Overview.pdf,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/BIO-v2.0-Proposed_Draft_Overview.pdf,40,]
 
-|collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
-|1.2
-|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/MOD-BIO-enrl-v1.2-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/Proposed-Draft/MOD-BIO-enrl-v1.2-PD.html,40,]
+|collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+|2.0
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/MOD-BIO-enrl-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/MOD-BIO-enrl-v2.0-PD.html,40,]
 
 
-|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device -
-|1.2
-|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Proposed-Draft/SD-BIO-enrl-v1.2-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/Proposed-Draft/SD-BIO-enrl-v1.2-PD.html,40,]
+|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOSD]
+|2.0
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.0-PD.html,40,]
+
+|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
+|2.0
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/CFG-MDF-BIO-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/CFG-MDF-BIO-v2.0-PD.html,40,]
 
 |===
 
