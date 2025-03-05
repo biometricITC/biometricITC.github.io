@@ -133,7 +133,7 @@ The v1.1 series of the PP-Module and SD will sunset in line with the sunset of t
 |Biometric PAD Toolbox Overview [Toolbox]
 |1.2
 |Oct 15, 2024
-|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/release/BIO-PAD-Toolbox-Overview-v1.2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/release/BIO-PAD-Toolbox-Overview-v1.2.html,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1.2/Release/BIO-PAD-Toolbox-Overview-v1.2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.2/Release/BIO-PAD-Toolbox-Overview-v1.2.html,40,]
 |
 |
 |
