@@ -1,8 +1,8 @@
 = Biometrics Security iTC (BIO-iTC)
 :showtitle:
 :imagesdir: images
-:revnumber: 13
-:revdate: 2025-01-21
+:revnumber: 14
+:revdate: February 28, 2025
 
 == Introduction
 From the CCDB-established Working Group, the Biometrics Security iTC (BIO-iTC for short) was formed. The BIO-iTC consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
@@ -14,13 +14,13 @@ https://github.com/biometricITC/[Biometrics iTC GitHub organization]
 To join the BIO-iTC, please send a message to: px-isec-itc-bio-info@ipa.go.jp
 
 == Current Status
-The BIO-iTC has published v1.1 of the PP-Module and Supporting Documents. This version is matched with the final release of Mobile Device Fundamentals PP v3.3. This release has several updates based on feedback from lab review of the Supporting Document, PP-Configuration and Toolbox.
+The BIO-iTC has published v2.0 of the PP-Module and Supporting Documents. This version is matched with the final release of Mobile Device Fundamentals PP v3.3, but is targeted to CC:2022. Updates will be made when a CC:2022-compliant version of that PP is released. This release has several updates based on feedback from lab review of the Supporting Document and PP-Configuration. The current Toolbox has not changed since publication in October 2024.
 
 [ditaa, PR_Timeline, png]
 ....
                                   
     +----------+   +----------+   +----------+   +----------+   +----------+   +----------+
-    |  cYEL    |   |          |   | Public   |   |          |   |          |   |          |
+    |          |   |          |   | Public   |   |          |   |          |   |   cYEL   |
     | Internal |   |  Public  |   | Review   |   | Proposed |   | Proposed |   | Final    |
     |  Draft   |-->|  Review  |-->| Draft 1  |-->|  Draft   |-->|  Update  |-->| Document |
     |          |   |  Draft 1 |   | Update   |   |          |   |          |   | Published|
@@ -36,12 +36,52 @@ The BIO-iTC has published a Proposed Draft v1.2 of the PP-Module and Supporting 
 
 === PP-Module and Supporting Documentation
 
-Latest Publication Date:: October 15, 2024
+Latest Publication Date:: February 28, 2025
 
-The following are the documents are included in Version 1.1 (for toolboxes, check <<Toolboxes>>):
+The following are the currently published and usable documents.
 
-.Public Release v1.1.1 Documents
-[[v1.1DocTable]]
+The v1.1 series of the PP-Module and SD will sunset in line with the sunset of the PP_MDF_V3.3 by NIAP.
+
+.Public Release v2.x Documents
+[[v2DocTable]]
+[cols=".^4,^.^1,^.^1,^.^1,^.^1,^.^1,^.^1",options="header"]
+|===
+|Title 
+|Version 
+|Date
+|Links
+|Latest TD Version
+|Date
+|Links
+
+|collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
+|2.0
+|February 28, 2025
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/release/MOD-BIO-v2.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/release/MOD-BIO-v2.0.html,40,]
+|
+|
+|
+
+|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
+|2.0
+|February 28, 2025
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/release/CFG-MDF-BIO-v2.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/release/CFG-MDF-BIO-v2.0.html,40,]
+|
+|
+|
+
+|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [BIOSD]
+|2.0
+|February 28, 2025
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/release/SD-BIO-v2.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/release/SD-BIO-v2.0.html,40,]
+|
+|
+|
+
+|===
+
+.Public Release v1.x Documents
+[[v1DocTable]]
 [cols=".^4,^.^1,^.^1,^.^1,^.^1,^.^1,^.^1",options="header"]
 |===
 |Title 
@@ -76,6 +116,20 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 |Nov 21, 2022
 |image:Crystal_Clear_mimetype_pdf.png[link=./v1.1/release/SD-BIO-v1.1.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v1.1/release/SD-BIO-v1.1.1.html,40,]
 
+|===
+
+.Public Release Toolbox Documents
+[[TBDocTable]]
+[cols=".^4,^.^1,^.^1,^.^1,^.^1,^.^1,^.^1",options="header"]
+|===
+|Title 
+|Version 
+|Date
+|Links
+|Latest TD Version
+|Date
+|Links
+
 |Biometric PAD Toolbox Overview [Toolbox]
 |1.2
 |Oct 15, 2024
@@ -87,12 +141,20 @@ The following are the documents are included in Version 1.1 (for toolboxes, chec
 |===
 
 .GitHub Public Release Packages
-[[v1.1GHTable]]
+[[GHTable]]
 [cols=".^4,^1,^1",options="header"]
 |===
 |Title 
 |Date
 |Link
+
+|PP-Module V2.0 Release package
+|February 28, 2025
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM2.0,40,]
+
+|Supporting Document V2.0 Release package
+|February 28, 2025 (with v2.0 PP-Module)
+|image:GitHub-Mark-64px.png[link=https://github.com/biometricITC/cPP-biometrics/releases/tag/PPM2.0,40,]
 
 |PP-Module V1.1.1 Release package
 |Nov 12, 2024
@@ -148,7 +210,7 @@ The BIO-iTC has created a proposed a new scope of work in authentication to crea
 This work is still in the proposal stage, but the ESR and Overview of the focus of a PP-Module can be found on the link:./CMFA.html[CMFA] page.
 
 == Protection Profile Allowed List
-The published <<v1.1DocTable, PP-Module>> can be used with Protection Profiles and PP-Modules listed on the https://biometricitc.github.io/PP-allowed.html[PP Allowed List].
+The published <<v2DocTable, v2.x PP-Module>> and <<v1DocTable, v1.x PP-Module>> can be used with Protection Profiles and PP-Modules listed on the https://biometricitc.github.io/PP-allowed.html[PP Allowed List].
 
 == Technical Decisions
 Technical Decisions produced by the BIO-iTC can be found at the link:./TD/tech-dec.html[BIO-iTC Technical Decisions] page.
@@ -171,35 +233,7 @@ The following are the documents are intended to support Public Reviews:
 
 == Current Documents for Review
 
-*_v2.0 Proposed Draft_*
-
-Publication Date:: January 7, 2025
-End of Comment Period:: February 7, 2025
-
-.Proposed Draft v2.0 Documents
-[[v20PDDocTable]]
-[cols=".^5,^.^1,^.^1",options="header"]
-|===
-|Title |Version |Links
-
-|Proposed Draft Overview
-|
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/BIO-v2.0-Proposed_Draft_Overview.pdf,40,]
-
-|collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
-|2.0
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/MOD-BIO-enrl-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/MOD-BIO-enrl-v2.0-PD.html,40,]
-
-
-|Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOSD]
-|2.0
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.0-PD.html,40,]
-
-|PP-Configuration for Protection Profile for Mobile Device Fundamentals and collaborative PP-Module for Biometric enrolment and verification - for unlocking the device - [CFG-MDF-BIO]
-|2.0
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/CFG-MDF-BIO-v2.0-PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/CFG-MDF-BIO-v2.0-PD.html,40,]
-
-|===
+There are no current documents for review.
 
 
 == Public Review Archive
