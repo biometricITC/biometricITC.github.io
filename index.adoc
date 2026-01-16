@@ -250,12 +250,12 @@ End of Comment Period:: February 7, 2026
 
 |collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOPP-Module]
 |2.1
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.1/Proposed-Draft/MOD-BIO-enrl-v2.1-PD1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.1/Proposed-Draft/MOD-BIO-enrl-v2.1-PD1.html,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.1/Proposed-Draft-1/MOD-BIO-enrl-v2.1-PD1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.1/Proposed-Draft-1/MOD-BIO-enrl-v2.1-PD1.html,40,]
 
 
 |Supporting Document Mandatory Technical Document: Evaluation Activities for collaborative PP-Module for Mobile biometric enrolment and verification - for unlocking the device - [BIOSD]
 |2.1
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.1-PD1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft/SD-BIO-enrl-v2.1-PD1.html,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.0/Proposed-Draft-1/SD-BIO-enrl-v2.1-PD1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2.0/Proposed-Draft-1/SD-BIO-enrl-v2.1-PD1.html,40,]
 
 |PP-Module V2.1-PD1 Release package
 |
